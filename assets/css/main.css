@@ -14,7 +14,7 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font:'Inter', sans-serif;
+  --default-font: 'Inter', sans-serif;
   --heading-font: 'Inter', sans-serif;
   --nav-font: 'Inter', sans-serif;
 }
@@ -589,6 +589,21 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
+}
+/*--------------------------------------------------------------
+# Chat message
+--------------------------------------------------------------*/
+.Chat-message {
+  position: fixed;
+  right: 15px;
+  bottom: 80px;
+  z-index: 99999;
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  transition: all 0.4s;
+  color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
