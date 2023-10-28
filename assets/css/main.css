@@ -43,6 +43,7 @@
   --nav-dropdown-hover-color: #e84545;
   --nav-dropdown-background-color: #ffffff;
   --nav-mobile-background-color: #ffffff;
+  --Top-Navbar-background-color: #212832;
 }
 
 /* Smooth scroll */
@@ -263,7 +264,7 @@ section {
 # Global Header Top Bars
 --------------------------------------------------------------*/
 .topbar {
-  background: #212832;
+  background:var(--Top-Navbar-background-color);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -319,7 +320,6 @@ section {
 .topbar .social-links .linkedin i {
   color: #0077b5;
 }
-
 .topbar .social-links .language-btn {
   margin-left: 20px;
   background-color: #f8fafc;
