@@ -260,6 +260,77 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Global Header Top Bars
+--------------------------------------------------------------*/
+.topbar {
+  background: #212832;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #fff;
+  padding: 0;
+}
+.topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+  line-height: 0;
+}
+.topbar .contact-info i a,
+.topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+@media (max-width: 575px) {
+  .topbar .contact-info i a,
+  .topbar .contact-info i span {
+    font-size: 13px;
+  }
+}
+.topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+  background: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+.topbar .social-links a:hover {
+  color: #fff;
+}
+.topbar .social-links .twitter i {
+  color: #1da1f2;
+}
+.topbar .social-links .facebook i {
+  color: #4267b2;
+}
+.topbar .social-links .youtube i {
+  color: #ff0000;
+}
+.topbar .social-links .linkedin i {
+  color: #0077b5;
+}
+
+.topbar .social-links .language-btn {
+  margin-left: 20px;
+  background-color: #f8fafc;
+  border: 0;
+  outline: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
@@ -307,7 +378,7 @@ section {
   border-radius: 50%;
   /* border: 1px solid rgba(var(--default-color-rgb), 0.5); */
   font-size: 16px;
-  color:#b3c1d3;;
+  color: #b3c1d3;
   margin-right: 10px;
   transition: 0.3s;
   background-color: #1e2c46;
