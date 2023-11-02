@@ -45,8 +45,8 @@
   --nav-dropdown-background-color: #ffffff;
   --nav-mobile-background-color: #ffffff;
   --Top-Navbar-background-color: #212832;
-  /* --hero-background-color: #37517e; */
-  --hero-background-color: #dcebfe;
+  --hero-background-color: #37517e;
+  /* --hero-background-color: #dcebfe; */
 }
 
 /* Smooth scroll */
@@ -699,6 +699,7 @@ section {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
 }
 #hero .course-view .course-view-items h6 {
   font-family: var(--Bangla-font);
@@ -707,6 +708,34 @@ section {
   font-weight: 500;
   margin-bottom: 0px;
   line-height: 20px;
+}
+#hero .happy-student {
+  background: #eaf2ff;
+  border-radius: 14px;
+  box-shadow: 10px 0 60px rgba(75, 131, 252, 0.15);
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+#hero .happy-student h4 {
+  font-family: var(--default-font);
+  font-weight: 600;
+}
+#hero .happy-student .avatars {
+  display: flex;
+  margin: auto;
+  padding: 0px;
+  flex-direction: row;
+  padding-left: 10px;
+}
+#hero .happy-student .avatars img {
+  border: 2px solid #eaf2ff;
+  border-radius: 100%;
+  margin-left: -10px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -763,7 +792,7 @@ section {
     padding: 10px 24px 11px 24px;
   }
 }
-@keyframes up-down {
+/* @keyframes up-down {
   0% {
     transform: translateY(10px);
   }
@@ -771,7 +800,7 @@ section {
   100% {
     transform: translateY(-10px);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
