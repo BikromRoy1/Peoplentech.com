@@ -97,36 +97,38 @@ section {
 /*--------------------------------------------------------------
 # Section Title
 --------------------------------------------------------------*/
-.section-title {
+.section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
+.section-header h4 {
+  font-family: var(--Bangla-font);
+  font-weight: 600;
+  font-size: 18px;
+}
+.section-header h4 span {
+  margin-left: 7px;
+}
+.section-header h2 {
+  font-family: var(--Bangla-font);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
   position: relative;
+  color: var(--text-primary-color);
 }
-
-.section-title h2:before,
-.section-title h2:after {
-  content: '';
-  width: 50px;
-  height: 2px;
-  background: var(--primary-color);
-  display: inline-block;
+.section-header p {
+  margin: 0 auto 0 auto;
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
 }
-
-.section-title h2:before {
-  margin: 0 15px 10px 0;
-}
-
-.section-title h2:after {
-  margin: 0 0 10px 15px;
-}
-
-.section-title p {
-  margin-bottom: 0;
+@media (min-width: 1199px) {
+  .section-header p {
+    max-width: 60%;
+  }
 }
 
 /*--------------------------------------------------------------
