@@ -168,8 +168,8 @@
     speed: 400,
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.category-next',
+      prevEl: '.category-prev',
     },
     slidesPerView: 'auto',
     breakpoints: {
@@ -192,6 +192,39 @@
       1200: {
         slidesPerView: 6,
         spaceBetween: 15,
+      },
+    },
+  });
+
+  // All Course
+  new Swiper('.Allcourse-slider', {
+    speed: 400,
+    loop: true,
+    navigation: {
+      nextEl: '.allcourse-next',
+      prevEl: '.allcourse-prev',
+    },
+    slidesPerView: 'auto',
+    breakpoints: {
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 15,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 23,
       },
     },
   });
