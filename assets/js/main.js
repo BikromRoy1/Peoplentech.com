@@ -228,4 +228,37 @@
       },
     },
   });
+
+  // Upcoming Batches
+  new Swiper('.upcomingBatches-slider', {
+    speed: 400,
+    loop: true,
+    navigation: {
+      nextEl: '.upcomingBatches-next',
+      prevEl: '.upcomingBatches-prev',
+    },
+    slidesPerView: 'auto',
+    breakpoints: {
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 15,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 23,
+      },
+    },
+  });
 })();
