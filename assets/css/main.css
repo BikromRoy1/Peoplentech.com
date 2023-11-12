@@ -1067,6 +1067,7 @@ section {
   color: rgba(13, 16, 52, 0.5);
   font-family: var(--Bangla-font);
 }
+
 /*--------------------------------------------------------------
 # Global All course Button CSS 
 --------------------------------------------------------------*/
@@ -1087,6 +1088,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
 }
+
 .AllCourse-btn a:hover {
   background-color: #198b46;
 }
@@ -1457,6 +1459,7 @@ section {
   font-size: 20px;
   color: var(--color-secondary);
 }
+
 .Batches-times {
   display: flex;
   align-items: center;
@@ -1464,6 +1467,7 @@ section {
   padding-bottom: 10px;
   margin-top: -3px;
 }
+
 .Batches-times .Batch-number {
   font-family: var(--Bangla-font);
   font-size: 14px;
@@ -1473,6 +1477,7 @@ section {
   border-radius: 3px;
   color: var(--secondary-color);
 }
+
 .Batches-times .Batch-sits {
   font-family: var(--Bangla-font);
   font-size: 14px;
@@ -1482,6 +1487,7 @@ section {
   border-radius: 3px;
   color: var(--secondary-color);
 }
+
 .Batches-times .Batch-day {
   font-family: var(--Bangla-font);
   font-size: 14px;
@@ -1491,6 +1497,7 @@ section {
   border-radius: 3px;
   color: var(--secondary-color);
 }
+
 /*--------------------------------------------------------------
 # Why peoplentech? 
 --------------------------------------------------------------*/
@@ -1505,29 +1512,36 @@ section {
   border: 1px solid #98a2b3;
   box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
 }
+
 #whypeoplentech .facilities-color03 {
   background: #e9f6ff;
   border: none;
 }
+
 #whypeoplentech .facilities-color02 {
   background: #ffedff;
   border: none;
 }
+
 #whypeoplentech .facilities-color01 {
   background: #fffccf;
   border: none;
 }
+
 #whypeoplentech .facilities-item .whypeoplentech-icons {
   text-align: center;
   padding-bottom: 25px;
 }
+
 #whypeoplentech .facilities-item .whypeoplentech-icons img {
   width: 88px;
   height: 88px;
 }
+
 #whypeoplentech .facilities-item .whypeoplentech-contnet {
   text-align: center;
 }
+
 #whypeoplentech .facilities-item .whypeoplentech-contnet h4 {
   color: var(--text-primary-color);
   font-size: 23px;
@@ -1536,6 +1550,7 @@ section {
   letter-spacing: 0.20000000298023224px;
   line-height: 30px;
 }
+
 #whypeoplentech .facilities-item .whypeoplentech-contnet p {
   color: var(--text-secondary-color);
   font-family: var(--Bangla-font);
@@ -1543,6 +1558,105 @@ section {
   line-height: 24px;
   padding-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Success Students
+--------------------------------------------------------------*/
+#successStudents .modal-items {
+  position: relative;
+  box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
+}
+#successStudents .modal-items img {
+  border-radius: 8px;
+}
+#successStudents .modal-items .play-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.play-btn {
+  background: radial-gradient(
+    var(--secondary-color) 50%,
+    rgba(var(--secondary-color-rgb), 0.4) 52%
+  );
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.play-btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+}
+
+.play-btn::before {
+  content: '';
+  background: rgba(198, 16, 0, 0);
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+  animation: pulsate-btn 3s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(var(--secondary-color-rgb), 0.7);
+  top: -15%;
+  left: -15%;
+}
+
+.play-btn:hover::after {
+  border-left: 15px solid var(--secondary-color);
+  transform: scale(20);
+}
+
+.play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  animation: none;
+  border-radius: 0;
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
