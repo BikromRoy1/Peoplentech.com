@@ -27,7 +27,7 @@
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
   --primary-color: #1cab55;
-  /* --primary-color: #e91f27; */
+  /* --primary-color: #2396d2; */
   --primary-color-rgb: 28, 171, 85;
   --secondary-color: #f1581e;
   --secondary-color-rgb: 241, 88, 30;
@@ -182,16 +182,16 @@ section {
 # Chat message
 --------------------------------------------------------------*/
 .Chat-message {
+  color: var(--contrast-color);
+  background-color: var(--primary-color);
   position: fixed;
   right: 15px;
-  bottom: 80px;
+  bottom: 15px;
   z-index: 99999;
-  background-color: var(--primary-color);
-  width: 150px;
-  height: 50px;
+  width: 65px;
+  height: 45px;
   border-radius: 6px;
   transition: all 0.4s;
-  color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
@@ -400,6 +400,7 @@ section {
   z-index: 997;
   padding: 15px 0;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  font-family: var(--Bangla-font);
 }
 
 #header.header-scrolled {
@@ -1760,6 +1761,9 @@ section {
 #Seminar .Seminar-thumb {
   margin-left: -100px;
 }
+#Seminar .Seminar-thumb img {
+  border-radius: 10px;
+}
 /*--------------------------------------------------------------
 # About us
 --------------------------------------------------------------*/
@@ -1909,6 +1913,17 @@ section {
   outline: 0;
   color: var(--contrast-color);
 }
+
+/*--------------------------------------------------------------
+# Sister Concern  
+--------------------------------------------------------------*/
+.sisterConcern-company {
+  margin-bottom: 20px;
+}
+.sisterConcern-company img {
+  width: 170px;
+  height: 100%;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1943,9 +1958,11 @@ section {
 }
 
 .footer .footer-about p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: var(--heading-font);
   color: #b3c1d3;
+  font-family: var(--Bangla-font);
+  line-height: 26px;
 }
 
 .footer .social-links a {
@@ -1969,6 +1986,7 @@ section {
 }
 
 .footer h4 {
+  font-family: var(--Bangla-font);
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 24px;
@@ -2022,6 +2040,8 @@ section {
   display: flex;
   align-items: center;
   font-weight: 500;
+  font-family: var(--Bangla-font);
+  font-size: 15px;
 }
 
 .footer .footer-links ul li:first-child {
