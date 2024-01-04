@@ -2431,6 +2431,48 @@ section {
 
 /* ?? Contact us -Pages  */
 /*--------------------------------------------------------------
+# Others Office Contact List
+--------------------------------------------------------------*/
+#otherContact {
+  padding-top: 0px;
+}
+#otherContact .others-office-card {
+  padding: 20px;
+  background: var(--contrast-color);
+  border: 1px solid #98a2b3;
+  box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
+  border-radius: 8px;
+  height: 100%;
+}
+#otherContact .others-office-card h4 {
+  color: var(--text-primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 13px;
+  line-height: 26px;
+}
+#otherContact .others-office-card p {
+  color: #a1a1a8;
+  margin-bottom: 6px;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  font-size: 15px;
+}
+#otherContact .others-office-card a {
+  background: #f7f8f9;
+  color: var(--text-primary-color);
+  padding: 5px 14px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#otherContact .others-office-card a i {
+  margin-left: 6px;
+  color: var(--text-primary-color);
+}
+/* ?? Contact us -Pages  */
+/*--------------------------------------------------------------
 # ADD GOOGLE MAPS
 --------------------------------------------------------------*/
 #googleMap {
