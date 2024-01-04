@@ -2319,6 +2319,67 @@ section {
   letter-spacing: 0.2px;
   line-height: 30px;
 }
+/* ?? Seminar-Pages  */
+/*--------------------------------------------------------------
+# Seminar Modal
+--------------------------------------------------------------*/
+.seminarModal .seminarModalTitle {
+  font-family: var(--Bangla-font);
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+.seminarModal .php-email-form {
+  width: 100%;
+}
+.seminarModal .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.seminarModal .php-email-form input::placeholder,
+.seminarModal .php-email-form textarea::placeholder,
+.seminarModal .php-email-form select::placeholder {
+  font-family: var(--Bangla-font);
+}
+.seminarModal .php-email-form input,
+.seminarModal .php-email-form textarea,
+.seminarModal .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+}
+.seminarModal .php-email-form input:focus,
+.seminarModal .php-email-form textarea:focus,
+.seminarModal .php-email-form select:focus {
+  border-color: var(--primary-color);
+}
+.seminarModal .php-email-form input,
+.seminarModal .php-email-form select {
+  height: 44px;
+}
+.seminarModal .php-email-form select {
+  font-family: var(--Bangla-font);
+}
+.seminarModal .php-email-form textarea {
+  padding: 10px 12px;
+}
+.seminarModal .php-email-form button[type='submit'] {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  font-family: var(--Bangla-font);
+  border: 0;
+  padding: 9px 35px;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.seminarModal .php-email-form button[type='submit']:hover {
+  background: var(--main-button-hover-color);
+}
 
 /* ?? Course-Pages  */
 /*--------------------------------------------------------------

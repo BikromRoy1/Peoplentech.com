@@ -196,7 +196,8 @@
                     </div>
                   </div>
                   <div class="seminar-join">
-                    <a href="#">জয়েন করুন <i class="ri-arrow-right-s-line"></i> </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seminarBookingModal">জয়েন করুন <i
+                        class="ri-arrow-right-s-line"></i> </a>
                   </div>
                 </div>
                 <div class="single-list-inner">
@@ -219,7 +220,8 @@
                     </div>
                   </div>
                   <div class="seminar-join">
-                    <a href="#">জয়েন করুন <i class="ri-arrow-right-s-line"></i> </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seminarBookingModal">জয়েন করুন <i
+                        class="ri-arrow-right-s-line"></i> </a>
                   </div>
                 </div>
                 <div class="single-list-inner">
@@ -242,7 +244,8 @@
                     </div>
                   </div>
                   <div class="seminar-join">
-                    <a href="#">জয়েন করুন <i class="ri-arrow-right-s-line"></i> </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seminarBookingModal">জয়েন করুন <i
+                        class="ri-arrow-right-s-line"></i> </a>
                   </div>
                 </div>
                 <div class="single-list-inner">
@@ -265,7 +268,8 @@
                     </div>
                   </div>
                   <div class="seminar-join">
-                    <a href="#">জয়েন করুন <i class="ri-arrow-right-s-line"></i> </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seminarBookingModal">জয়েন করুন <i
+                        class="ri-arrow-right-s-line"></i> </a>
                   </div>
                 </div>
                 <div class="single-list-inner">
@@ -288,7 +292,8 @@
                     </div>
                   </div>
                   <div class="seminar-join">
-                    <a href="#">জয়েন করুন <i class="ri-arrow-right-s-line"></i> </a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#seminarBookingModal">জয়েন করুন <i
+                        class="ri-arrow-right-s-line"></i> </a>
                   </div>
                 </div>
 
@@ -411,6 +416,56 @@
     </div>
   </footer>
   <!-- End Footer -->
+
+  <!-- Modal -->
+  <div class="modal fade seminarModal" id="seminarBookingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title seminarModalTitle fs-5" id="exampleModalLabel">পিপলএনটেক এর সাথে শেখা শুরু করি</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         
+        <form action="#" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="আপনার নাম" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            
+            <div class="col-md-6 form-group mt-2 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="আপনার ফোন নাম্বার" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group mt-2">
+              <input type="email" class="form-control" name="email" id="email" placeholder="আপনার ইমেইল" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-12 form-group mt-2">
+              <select name="department" id="department" class="form-select">
+                <option value="">কোর্স নির্বাচন করুন </option>
+                <option value="Department 1">প্রফেশনাল গ্রাফিক ডিজাইন</option>
+                <option value="Department 2">ফ্রন্টএন্ড ডেভেলপমেন্ট উইথ রিঅ্যাক্ট</option>
+                <option value="Department 3">অ্যাপ ডেভেলপমেন্ট উইথ কটলিন</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+          </div>
+
+          <div class="form-group mt-2">
+            <textarea class="form-control" name="message" rows="4" placeholder="এখানে আপনার বার্তা লিখুন (অপশনাল)"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="text-center"><button type="submit">সিট বুক করুন</button></div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
