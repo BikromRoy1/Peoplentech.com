@@ -2230,6 +2230,49 @@ section {
   line-height: 25px;
 }
 
+/* ?? Course-Pages  */
+/*--------------------------------------------------------------
+# Course Details
+--------------------------------------------------------------*/
+#CourseDetails-Banner {
+  padding-top: 30px;
+}
+#CourseDetails-Banner .CourseDetails-link {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+#CourseDetails-Banner .CourseDetails-Link-title {
+  font-family: var(--Bangla-font);
+  color: var(--text-primary-color);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#CourseDetails-Banner .CourseDetails-Link-title:hover {
+  color: var(--primary-color);
+}
+#CourseDetails-Banner .Course-hm-link {
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#CourseDetails-Banner .Course-hm-link:hover {
+  color: var(--primary-color);
+}
+#CourseDetails-Banner .CourseDetails-ti {
+  color: #9ca3af;
+  margin-bottom: 0px;
+  font-family: var(--Bangla-font);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
 # Seminar List
@@ -2379,70 +2422,6 @@ section {
 
 .seminarModal .php-email-form button[type='submit']:hover {
   background: var(--main-button-hover-color);
-}
-
-/* ?? Course-Pages  */
-/*--------------------------------------------------------------
-# Course Details
---------------------------------------------------------------*/
-#CourseDetails-Banner .course-banner-left h4 {
-  font-family: var(--Bangla-font);
-  color: var(--secondary-color);
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0.20000000298023224px;
-  margin-bottom: 0;
-}
-#CourseDetails-Banner .course-banner-left h3 {
-  font-family: var(--Bangla-font);
-  color: var(--text-primary-color);
-  font-size: 36px;
-  font-weight: 600;
-  padding-top: 7px;
-  padding-bottom: 10px;
-  line-height: 42px;
-  letter-spacing: 0.20000000298023224px;
-}
-#CourseDetails-Banner .course-banner-left p {
-  font-family: var(--Bangla-font);
-  color: var(--text-secondary-color);
-  line-height: 26px;
-  letter-spacing: 0.20000000298023224px;
-  font-size: 18px;
-  margin-bottom: 0px;
-}
-#CourseDetails-Banner .courseDetails-btn {
-  padding-top: 25px;
-}
-#CourseDetails-Banner .courseDetails-btn .admision-btn {
-  color: var(--contrast-color);
-  background: var(--primary-color);
-  font-family: var(--Bangla-font);
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 7px 20px;
-  transition: 0.5s;
-  outline: 0;
-}
-#CourseDetails-Banner .courseDetails-btn .admision-btn:hover {
-  background-color: var(--main-button-hover-color);
-}
-#CourseDetails-Banner .courseDetails-btn .seminar-btn {
-  color: var(--contrast-color);
-  font-family: var(--Bangla-font);
-  background: var(--primary-color);
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 7px 20px;
-  transition: 0.5s;
-  outline: 0;
-  margin-left: 10px;
-}
-#CourseDetails-Banner .courseDetails-btn .seminar-btn:hover {
-  background-color: var(--main-button-hover-color);
 }
 
 /* ?? Contact us -Pages  */
