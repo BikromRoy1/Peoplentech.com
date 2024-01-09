@@ -2347,6 +2347,36 @@ section {
   letter-spacing: 0.20000000298023224px;
   font-weight: 500;
 }
+#CourseDetails-Banner .inside-Course-botton-group {
+  padding-top: 16px;
+}
+#CourseDetails-Banner .inside-Course-botton-group .admission-btn {
+  font-family: var(--Bangla-font);
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  padding: 6px 18px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+#CourseDetails-Banner .inside-Course-botton-group .admission-btn:hover {
+  background: var(--main-button-hover-color);
+}
+#CourseDetails-Banner .inside-Course-botton-group .seminar-btn {
+  font-family: var(--Bangla-font);
+  padding: 5px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#CourseDetails-Banner .inside-Course-botton-group .seminar-btn:hover {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+}
 
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
