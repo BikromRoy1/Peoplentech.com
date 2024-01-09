@@ -2389,10 +2389,26 @@ section {
 #CourseDetails-Banner .course-contact {
   border: 1px solid rgb(209 213 219);
   border-radius: 6px;
-  padding: 25px 20px;
-  margin-top: 20px;
+  padding: 30px 25px;
+  margin-top: 25px;
 }
-
+#CourseDetails-Banner .course-contact h4 {
+  text-align: center;
+  font-family: var(--Bangla-font);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.20000000298023224px;
+  line-height: 28px;
+}
+#CourseDetails-Banner .course-contact p {
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: var(--Bangla-font);
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
 
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
