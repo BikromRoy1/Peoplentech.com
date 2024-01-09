@@ -2241,9 +2241,9 @@ section {
 
 .courseDetails-header h2 {
   font-family: var(--Bangla-font);
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
   position: relative;
   color: var(--text-primary-color);
 }
@@ -2442,6 +2442,28 @@ section {
   color: var(--primary-color);
   font-size: 16px;
   font-weight: 600;
+}
+/* ?? course-Pages  */
+/*--------------------------------------------------------------
+# Course Details -- Get One Course
+--------------------------------------------------------------*/
+#getOneCourse .getOneCourse-card {
+  text-align: center;
+  border: 1px solid #dee2e6;
+  padding: 25px 10px;
+  height: 100%;
+}
+#getOneCourse .getOneCourse-card img {
+  width: 60px;
+  padding-bottom: 20px;
+}
+#getOneCourse .getOneCourse-card h4 {
+  font-family: var(--Bangla-font);
+  color: var(--text-primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.20000000298023224px;
+  line-height: 28px;
 }
 
 /* ?? Seminar-Pages  */
