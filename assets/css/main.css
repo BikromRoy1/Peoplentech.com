@@ -2229,6 +2229,40 @@ section {
   font-size: 17px;
   line-height: 25px;
 }
+/* ?? Course-Pages  */
+/*--------------------------------------------------------------
+# Course Details Page section Title
+--------------------------------------------------------------*/
+
+.courseDetails-header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.courseDetails-header h2 {
+  font-family: var(--Bangla-font);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  position: relative;
+  color: var(--text-primary-color);
+}
+
+.courseDetails-header p {
+  margin: 0 auto 0 auto;
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 1199px) {
+  .courseDetails-header p {
+    max-width: 60%;
+  }
+}
 
 /* ?? Course-Pages  */
 /*--------------------------------------------------------------
