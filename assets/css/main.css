@@ -2310,6 +2310,43 @@ section {
   letter-spacing: 0.20000000298023224px;
   font-size: 17px;
 }
+#CourseDetails-Banner .inside-Course-card {
+  /* border: 1px solid #e5e7eb; */
+  border: 1px solid rgb(209 213 219);
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 15px;
+}
+#CourseDetails-Banner .inside-Course-content {
+  border-bottom: 1px solid rgb(209 213 219);
+  padding-bottom: 10px;
+}
+#CourseDetails-Banner .inside-Course-card h4 {
+  color: var(--text-primary-color);
+  font-family: var(--Bangla-font);
+  padding-bottom: 15px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.20000000298023224px;
+}
+#CourseDetails-Banner .inside-Course-items {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-bottom: 10px;
+}
+#CourseDetails-Banner .inside-Course-items img {
+  width: 20px;
+  height: 20px;
+}
+#CourseDetails-Banner .inside-Course-items p {
+  font-family: var(--Bangla-font);
+  margin-bottom: 0px;
+  color: #111827;
+  letter-spacing: 0.20000000298023224px;
+  font-weight: 500;
+}
 
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
