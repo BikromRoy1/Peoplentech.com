@@ -2447,6 +2447,9 @@ section {
 /*--------------------------------------------------------------
 # Course Details -- Get One Course
 --------------------------------------------------------------*/
+#getOneCourse {
+  padding-top: 0px;
+}
 #getOneCourse .getOneCourse-card {
   text-align: center;
   border: 1px solid #dee2e6;
@@ -2464,6 +2467,106 @@ section {
   font-weight: 600;
   letter-spacing: 0.20000000298023224px;
   line-height: 28px;
+}
+/* ?? course-Pages  */
+/*--------------------------------------------------------------
+# Full curriculum of the course
+--------------------------------------------------------------*/
+#courseCurriculum {
+  padding-top: 0px;
+}
+
+#courseCurriculum .faq-container .faq-item {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(var(--default-color-rgb), 0.1);
+  overflow: hidden;
+}
+
+#courseCurriculum .faq-container .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+#courseCurriculum .faq-container .faq-item h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+
+#courseCurriculum .faq-container .faq-item h3 .num {
+  color: var(--primary-color);
+  padding-right: 5px;
+}
+
+#courseCurriculum .faq-container .faq-item h3:hover {
+  color: var(--primary-color);
+}
+
+#courseCurriculum .faq-container .faq-item .faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#courseCurriculum .faq-container .faq-item .faq-content p {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+#courseCurriculum .faq-container .faq-item .faq-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#courseCurriculum .faq-container .faq-item .faq-toggle:hover {
+  color: var(--primary-color);
+}
+
+#courseCurriculum.faq-container .faq-active h3 {
+  color: var(--primary-color);
+}
+
+#courseCurriculum .faq-container .faq-active .faq-content {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+#courseCurriculum .faq-container .faq-active .faq-toggle {
+  transform: rotate(90deg);
+  color: var(--primary-color);
+}
+
+#courseCurriculum .courseCurriculum-more {
+  text-align: center;
+  padding-top: 20px;
+}
+#courseCurriculum .courseCurriculum-more a {
+  color: var(--contrast-color);
+  font-family: var(--Bangla-font);
+  background: var(--primary-color);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 20px;
+  transition: 0.5s;
+}
+#courseCurriculum .courseCurriculum-more a:hover {
+  background: var(--main-button-hover-color);
 }
 
 /* ?? Seminar-Pages  */
