@@ -2609,6 +2609,13 @@ section {
   margin-bottom: 0px;
   color: var(--primary-color);
 }
+/* ?? course Details-Pages  */
+/*--------------------------------------------------------------
+# Course Certificate
+--------------------------------------------------------------*/
+#courseCertificate {
+  padding-top: 0px;
+}
 
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
