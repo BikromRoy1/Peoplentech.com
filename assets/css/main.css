@@ -2568,6 +2568,38 @@ section {
 #courseCurriculum .courseCurriculum-more a:hover {
   background: var(--main-button-hover-color);
 }
+/* ?? Course Details-Pages  */
+/*--------------------------------------------------------------
+# Details about the course
+--------------------------------------------------------------*/
+#aboutCourseDetails {
+  padding-top: 0px;
+}
+#aboutCourseDetails .aboutCourseDetails-parent {
+  position: relative;
+}
+#aboutCourseDetails .aboutCourseDetails-content {
+  border: 1px solid rgb(209 213 219);
+  border-radius: 6px;
+  padding: 30px;
+}
+#aboutCourseDetails .aboutCourseDetails-content p {
+  font-family: var(--Bangla-font);
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#aboutCourseDetails .aboutCourseDetails-content p:last-child {
+  margin-bottom: 0px;
+}
+#aboutCourseDetails .aboutCourseDetails-parent .more-content {
+  font-family: var(--Bangla-font);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  box-shadow: 0px 5px 25px 0px rgba(var(--default-color-rgb), 0.1);
+}
 
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
