@@ -2476,10 +2476,89 @@ section {
   padding-top: 10px;
 }
 
+#courseCurriculum .accordion-item {
+  border: 0;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  border: 1px solid rgb(209 213 219);
+  background: none;
+}
+#courseCurriculum .accordion-item:last-child {
+  margin-bottom: 0;
+}
+#courseCurriculum .accordion-collapse {
+  border: 0;
+}
+#courseCurriculum .accordion-button {
+  padding: 20px 50px 20px 20px;
+  font-weight: 600;
+  border: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-default);
+  text-align: left;
+  background: none;
+  box-shadow: none;
+  border-radius: 7px;
+  letter-spacing: 0.20000000298023224px;
+  font-family: var(--Bangla-font);
+}
+.module-left-color {
+  background: #12b76a;
+}
+.module-right-color {
+  background: #ad65fc;
+}
+#courseCurriculum .accordion-button .module-name {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+#courseCurriculum .accordion-button .module-name h5 {
+  font-family: var(--Bangla-font);
+  color: var(--contrast-color);
+  margin-bottom: 0px;
+  font-size: 18px;
+  letter-spacing: 0.20000000298023224px;
+  margin-top: 3px;
+}
+#courseCurriculum .accordion-button .module-name p {
+  margin-bottom: 0px;
+  color: var(--contrast-color);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.20000000298023224px;
+}
 
+#courseCurriculum .accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  border-bottom: 0;
+  box-shadow: none;
+}
+#courseCurriculum .accordion-button:after {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+#courseCurriculum .accordion-body {
+  padding: 0 20px 30px 21px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  box-shadow: none;
+  letter-spacing: 0.20000000298023224px;
+  font-family: var(--Bangla-font);
+  font-size: 16px;
+  font-weight: 400;
+}
 #courseCurriculum .courseCurriculum-more {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 #courseCurriculum .courseCurriculum-more a {
   color: var(--contrast-color);
