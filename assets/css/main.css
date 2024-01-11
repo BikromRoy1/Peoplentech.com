@@ -2712,7 +2712,63 @@ section {
 #courseFeq {
   padding-top: 10px;
 }
-
+#courseFeq .accordion-item {
+  border: 0;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  border: 1px solid rgb(209 213 219);
+  background: none;
+}
+#courseFeq .accordion-item:last-child {
+  margin-bottom: 0;
+}
+#courseFeq .accordion-collapse {
+  border: 0;
+}
+#courseFeq .accordion-button {
+  padding: 20px 50px 20px 20px;
+  font-weight: 600;
+  border: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-default);
+  text-align: left;
+  background: none;
+  box-shadow: none;
+  border-radius: 7px;
+  letter-spacing: 0.20000000298023224px;
+  font-family: var(--Bangla-font);
+}
+#courseFeq .accordion-button .num {
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--primary-color);
+  font-family: var(--Bangla-font);
+  font-weight: 600;
+  letter-spacing: 0.20000000298023224px;
+}
+#courseFeq .accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  border-bottom: 0;
+  box-shadow: none;
+}
+#courseFeq .accordion-button:after {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+#courseFeq .accordion-body {
+  padding: 0 40px 30px 45px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  box-shadow: none;
+  letter-spacing: 0.20000000298023224px;
+  font-family: var(--Bangla-font);
+  font-size: 16px;
+  font-weight: 400;
+}
 /* ?? Seminar-Pages  */
 /*--------------------------------------------------------------
 # Seminar List
