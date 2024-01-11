@@ -2448,7 +2448,7 @@ section {
 # Course Details -- Get One Course
 --------------------------------------------------------------*/
 #getOneCourse {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 #getOneCourse .getOneCourse-card {
   text-align: center;
@@ -2473,7 +2473,7 @@ section {
 # Full curriculum of the course
 --------------------------------------------------------------*/
 #courseCurriculum {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 #courseCurriculum .faq-container .faq-item {
@@ -2573,7 +2573,7 @@ section {
 # Details about the course
 --------------------------------------------------------------*/
 #aboutCourseDetails {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 #aboutCourseDetails .aboutCourseDetails-parent {
   position: relative;
@@ -2614,7 +2614,7 @@ section {
 # Course Certificate
 --------------------------------------------------------------*/
 #courseCertificate {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 #courseCertificate .courseCertificate-content {
   border: 1px solid rgb(209 213 219);
@@ -2655,6 +2655,14 @@ section {
 }
 #courseCertificate .courseCertificate-content .Certificate-image img {
   cursor: pointer;
+}
+
+/* ?? course Details-Pages  */
+/*--------------------------------------------------------------
+# Student FeedBack
+--------------------------------------------------------------*/
+#CourseDetailsFeedback {
+  padding-top: 10px;
 }
 
 /* ?? Seminar-Pages  */
