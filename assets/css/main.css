@@ -2724,6 +2724,43 @@ section {
   letter-spacing: 0.20000000298023224px;
   margin-bottom: 0px;
 }
+
+#CourseDetailsFeedback .feedback-next {
+  background-color: #7f7f7f;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  right: -35px;
+  z-index: 10;
+}
+
+#CourseDetailsFeedback .feedback-prev {
+  background-color: #7f7f7f;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: -35px;
+  z-index: 10;
+}
+
+#CourseDetailsFeedback .feedback-next:after,
+#CourseDetailsFeedback .feedback-prev:after {
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+
 /* ?? Course Details -Pages  */
 /*--------------------------------------------------------------
 # Answers to frequently asked questions
