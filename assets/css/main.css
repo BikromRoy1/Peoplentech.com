@@ -1230,51 +1230,41 @@ section {
   color: var(--color-secondary);
 }
 
-.Allcourse .nav-pills {
-  border-bottom: 1px solid #e5e7eb;
-  justify-content: center;
-}
-
-.Allcourse .nav-pills li + li {
-  margin-left: 20px;
-}
-
 .Allcourse .nav-link {
-  background: none;
-  font-size: 18px;
-  font-weight: 400;
-  padding: 12px 0;
-  margin-bottom: -2px;
-  border-radius: 0;
-  font-family: var(--Bangla-font);
-  text-align: center;
-}
-
-.Allcourse .nav-link h4 {
-  font-family: var(--Bangla-font);
+  display: inline-block;
+  background: #ffffff;
   font-size: 16px;
-  color: var(--text-primary-color);
-  margin-bottom: 0px;
-  font-weight: 700;
-  line-height: 20px;
+  font-weight: 400;
+  padding: 10px 14px;
+  margin: 0px 5px;
+  font-family: var(--Bangla-font);
+  text-align: left;
+  box-shadow: 0px 2px 4px -5px rgba(10, 42, 105, 0.05);
+  border: 1px solid #e0e6f7;
+  border-radius: 8px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.Allcourse .nav-link img {
+  width: auto;
+  height: 18px;
+  margin: 0px 6px 0px 0px;
 }
 
 .Allcourse .nav-link span {
-  color: var(--text-secondary-color);
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.20000000298023224px;
+  font-family: var(--Bangla-font);
+  font-size: 14px;
+  color: var(--text-primary-color);
+  margin-bottom: 0px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .Allcourse .nav-link.active {
   color: var(--primary-color);
-  background: none;
+  background: #ffffff;
+  border: 1px solid var(--primary-color);
 }
-
-.Allcourse .nav-link.active h4 {
-  color: var(--primary-color);
-}
-
 .Allcourse .nav-link.active span {
   color: var(--primary-color);
 }
@@ -2270,6 +2260,7 @@ section {
 --------------------------------------------------------------*/
 #CourseDetails-Banner {
   padding-top: 30px;
+  /* background: radial-gradient(95.36% 95.12% at 110% 13%, #f9c1a7 0, #fff 100%); */
 }
 #CourseDetails-Banner .CourseDetails-link {
   display: flex;
@@ -2567,7 +2558,7 @@ section {
   align-items: stretch;
   gap: 13px;
 }
-#courseCurriculum .accordion-body .module-content-list li:last-child{
+#courseCurriculum .accordion-body .module-content-list li:last-child {
   padding-bottom: 0px;
 }
 #courseCurriculum .courseCurriculum-more {
