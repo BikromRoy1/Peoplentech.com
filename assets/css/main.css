@@ -2556,6 +2556,20 @@ section {
   font-size: 16px;
   font-weight: 400;
 }
+#courseCurriculum .accordion-body .module-content-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#courseCurriculum .accordion-body .module-content-list li {
+  padding-bottom: 12px;
+  display: flex;
+  align-items: stretch;
+  gap: 13px;
+}
+#courseCurriculum .accordion-body .module-content-list li:last-child{
+  padding-bottom: 0px;
+}
 #courseCurriculum .courseCurriculum-more {
   text-align: center;
   padding-top: 25px;
