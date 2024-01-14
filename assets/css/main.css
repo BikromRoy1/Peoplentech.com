@@ -629,7 +629,7 @@ section {
 ------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 76vh;
   background-image: url(https://cdn.10minuteschool.com/images/bg2_1699781792031.png);
   background-color: rgb(248, 253, 249);
   overflow: hidden;
@@ -1102,51 +1102,26 @@ section {
   background: #fff;
   box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.15);
   border-radius: 10px;
+  padding-bottom: 17px;
 }
-#pnt-certificate .certificate-list .certificate h4 {
+#pnt-certificate .certificate-list .certificate-title {
   font-family: var(--Bangla-font);
   color: var(--primary-color);
   letter-spacing: 0.20000000298023224px;
   line-height: 25px;
-  font-size: 16px;
-  font-weight: 600;
-}
-#pnt-certificate .certificate-list .membership h4 {
-  font-family: var(--Bangla-font);
-  color: var(--primary-color);
-  letter-spacing: 0.20000000298023224px;
-  line-height: 25px;
-  font-size: 16px;
-  font-weight: 600;
-}
-#pnt-certificate .certificate-list .accrediated h4 {
-  font-family: var(--Bangla-font);
-  color: var(--primary-color);
-  letter-spacing: 0.20000000298023224px;
-  line-height: 25px;
-  font-size: 16px;
-  font-weight: 600;
-}
-#pnt-certificate .certificate-list .Partner h4 {
-  font-family: var(--Bangla-font);
-  color: var(--primary-color);
-  letter-spacing: 0.20000000298023224px;
-  line-height: 25px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 0px;
+  padding-left: 10px;
 }
-/* #pnt-certificate .certificate-list .Partner img{
-  width: 103;
-  height: 70;
-} */
 
 /*--------------------------------------------------------------
 # course category
 --------------------------------------------------------------*/
 #course-category {
   background-color: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 #course-category .category-slider {
