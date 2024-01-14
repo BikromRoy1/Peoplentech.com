@@ -1105,7 +1105,7 @@ section {
 }
 #pnt-certificate .certificate-list .certificate h4 {
   font-family: var(--Bangla-font);
-   color: var(--primary-color);
+  color: var(--primary-color);
   letter-spacing: 0.20000000298023224px;
   line-height: 25px;
   font-size: 16px;
@@ -1113,7 +1113,7 @@ section {
 }
 #pnt-certificate .certificate-list .membership h4 {
   font-family: var(--Bangla-font);
-   color: var(--primary-color);
+  color: var(--primary-color);
   letter-spacing: 0.20000000298023224px;
   line-height: 25px;
   font-size: 16px;
@@ -1121,7 +1121,7 @@ section {
 }
 #pnt-certificate .certificate-list .accrediated h4 {
   font-family: var(--Bangla-font);
-   color: var(--primary-color);
+  color: var(--primary-color);
   letter-spacing: 0.20000000298023224px;
   line-height: 25px;
   font-size: 16px;
@@ -3289,6 +3289,6 @@ section {
 /*--------------------------------------------------------------
 # Upcoming Batch
 --------------------------------------------------------------*/
-.upcomingBatch{
-  
+.upcomingBatch-list {
+  padding-top: 10px;
 }
