@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="creator" content="@ Bikrom Roy" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta name="creator" content="@ Bikrom Roy" />
+    <title>Front-End Development with React JS Training Course - CIT</title>
+    <meta
+      content="We PeopleNTech is offering professional IT training course & job placement facility for students. We are affiliating with top notch IT company in Bangladesh."
+      name="description"
+    />
+    <meta content="" name="keywords" />
+    <meta
+      name="title"
+      content="Professional IT Training Institute in Bangladesh - PeopleNTech"
+    />
 
-  <title>Front-End Development with React JS Training Course - CIT</title>
-  <meta
-    content="We PeopleNTech is offering professional IT training course & job placement facility for students. We are affiliating with top notch IT company in Bangladesh."
-    name="description" />
-  <meta content="" name="keywords" />
-  <meta name="title" content="Professional IT Training Institute in Bangladesh - PeopleNTech" />
+    <!-- Favicons -->
+    <link
+      href="assets/img/favicon-32-pixel.png"
+      alt="PeopleNTech IT Institute | Icon 0"
+      rel="icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="48x48"
+      href="assets/img/favicon-48-pixel.png"
+      alt="PeopleNTech IT Institute | Icon 1"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/img/favicon-72-pixel.png"
+      alt="PeopleNTech IT Institute | Icon 2"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      href="assets/img/favicon-96-pixel.png"
+      alt="PeopleNTech IT Institute | Icon 3"
+    />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon-32-pixel.png" alt="PeopleNTech IT Institute | Icon 0" rel="icon" />
-  <link rel="apple-touch-icon" sizes="48x48" href="assets/img/favicon-48-pixel.png"
-    alt="PeopleNTech IT Institute | Icon 1" />
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon-72-pixel.png"
-    alt="PeopleNTech IT Institute | Icon 2" />
-  <link rel="apple-touch-icon" sizes="96x96" href="assets/img/favicon-96-pixel.png"
-    alt="PeopleNTech IT Institute | Icon 3" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Website Name: Peoplentech.com.bd
   * Updated: october 19 2023 with Bootstrap v5.3.2 least
   * Template URL: https://peoplentech.com.bd/
@@ -48,818 +77,1150 @@
   * License: https://peoplentech.com.bd/
   * contact us: 151/7, Good Luck Center (7th & 8th) Floor, Green Road, Dhaka - 1205,  Bangladesh
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
-
-  <!-- ======= Header ======= -->
-  <section id="topbar" class="topbar d-flex align-items-center">
-    <!-- Start Top Bar -->
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-telephone-outbound-fill d-flex align-items-center "><span>+880961-333-7448 /
-            0179-944-6655</span></i>
-        <i class="bi bi-wechat d-flex align-items-center ms-4"><a
-            href="mailto:contact@example.com">info@peoplentech.com.bd</a></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a title="Twitter" target="_blank" href="https://twitter.com/peoplentech1?lang=en" class="twitter"><i
-            class="bi bi-twitter"></i></a>
-        <a title="facebook" target="_blank" href="https://www.facebook.com/peoplentechbd" class="facebook"><i
-            class="bi bi-facebook"></i></a>
-        <a title="Youtube" target="_blank" href="https://www.youtube.com/@PeopleNTechBangladesh" class="youtube"><i
-            class="bi bi-youtube"></i></a>
-        <a title="linkedin" target="_blank" href="https://bd.linkedin.com/company/peoplentech-institute"
-          class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-        <button class="language-btn" href="#">
-          <svg class="hidden md:block" width="15" height="14" viewBox="0 0 15 14" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_9494_69309)">
-              <path
-                d="M8.4129 12.71C8.34261 12.8852 8.17283 13 7.98407 13C7.65462 13 7.43101 12.6651 7.5573 12.3608L10.0079 6.45676C10.1226 6.18024 10.3926 6 10.692 6C10.9914 6 11.2613 6.18024 11.3761 6.45676L13.8267 12.3608C13.953 12.6651 13.7294 13 13.3999 13C13.2112 13 13.0414 12.8852 12.9711 12.71L10.7344 7.13611C10.7275 7.11878 10.7107 7.10742 10.692 7.10742C10.6733 7.10742 10.6565 7.11878 10.6496 7.13611L8.4129 12.71ZM8.66745 10.6416C8.66745 10.434 8.83578 10.2656 9.04342 10.2656H12.3406C12.5482 10.2656 12.7165 10.434 12.7165 10.6416C12.7165 10.8492 12.5482 11.0176 12.3406 11.0176H9.04342C8.83578 11.0176 8.66745 10.8492 8.66745 10.6416Z"
-                fill="#6B7280"></path>
-              <path
-                d="M8.75662 1C8.94575 1 9.09907 1.15332 9.09907 1.34244C9.09907 1.53157 8.94575 1.68489 8.75662 1.68489H8.0862V6.54228C8.0862 6.79507 7.88128 7 7.62848 7C7.45399 7 7.29663 6.8996 7.2092 6.74859C7.0493 6.47242 6.86254 6.22503 6.64891 6.00643C6.37238 5.71704 6.07656 5.46945 5.76145 5.26367L6.0026 4.62701C6.24698 4.76849 6.50099 4.96141 6.76466 5.20579C7.02833 5.45016 7.2309 5.69775 7.37238 5.94855C7.36595 5.85209 7.35952 5.76206 7.35309 5.67846C7.35309 5.59485 7.34987 5.50804 7.34344 5.41801C7.34344 5.32797 7.34344 5.23151 7.34344 5.12862V1.68489H0.634436C0.445309 1.68489 0.291992 1.53157 0.291992 1.34244C0.291992 1.15332 0.44531 1 0.634436 1H8.75662ZM4.01546 6.12219C3.57817 6.12219 3.16016 6.01929 2.76145 5.8135C2.36273 5.60772 1.98653 5.26045 1.63283 4.7717C1.33459 4.34644 1.05532 3.78598 0.795026 3.09035C0.722542 2.89664 0.82885 2.68352 1.02533 2.61892C1.21787 2.55562 1.42501 2.65882 1.49615 2.8486C1.68952 3.36445 1.88942 3.7997 2.09585 4.15434C2.35309 4.57878 2.63926 4.89068 2.95437 5.09003C3.26948 5.28939 3.62961 5.38907 4.03476 5.38907C4.38845 5.38907 4.67141 5.3344 4.88363 5.22508C5.10228 5.10932 5.25984 4.95498 5.3563 4.76206C5.45276 4.5627 5.501 4.34405 5.501 4.10611C5.501 3.73312 5.3981 3.43087 5.19231 3.19936C4.99296 2.96785 4.74215 2.85209 4.4399 2.85209C4.22768 2.85209 4.06691 2.90032 3.95759 2.99678C3.84826 3.08682 3.7936 3.22508 3.7936 3.41158C3.7936 3.45659 3.80003 3.51768 3.81289 3.59486C3.83172 3.70781 3.76689 3.82758 3.65455 3.84975L3.44714 3.89069C3.27022 3.9256 3.09239 3.82419 3.04741 3.64955C3.04177 3.62763 3.03648 3.60618 3.03154 3.58521C3.01225 3.46945 3.0026 3.36013 3.0026 3.25723C3.0026 3.01929 3.06691 2.81994 3.19553 2.65916C3.33058 2.49839 3.50099 2.37942 3.70678 2.30225C3.919 2.21865 4.14087 2.17685 4.37238 2.17685C4.7518 2.17685 5.07977 2.26367 5.3563 2.4373C5.63283 2.6045 5.84826 2.83601 6.0026 3.13183C6.15694 3.42765 6.23411 3.7717 6.23411 4.16399C6.23411 4.51125 6.15373 4.83601 5.99296 5.13826C5.83219 5.43408 5.58781 5.67203 5.25984 5.85209C4.93186 6.03215 4.51707 6.12219 4.01546 6.12219ZM3.70678 2.51447C3.67463 2.30868 3.57817 2.12862 3.41739 1.97428C3.26305 1.8135 3.03476 1.70096 2.73251 1.63666L2.96402 1.20257L3.3981 1.31833C3.76466 1.45981 4.02833 1.62058 4.1891 1.80064C4.34987 1.98071 4.44312 2.209 4.46884 2.48553L3.70678 2.51447Z"
-                fill="#6B7280"></path>
-            </g>
-            <defs>
-              <clipPath id="clip0_9494_69309">
-                <rect width="14" height="14" fill="white" transform="translate(0.291992)"></rect>
-              </clipPath>
-            </defs>
-          </svg>
-          <span>বাং</span>
-        </button>
-      </div>
-    </div>
-  </section>
-  <!-- End Top Bar -->
-
-  <!-- ======= Header second Navbar ======= -->
-  <header id="header" class=" d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">PeopleNTech </a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/PNT-orginal-PNG.png" alt="Peoplentech-logo"
-          loading="lazy" class="img-fluid"></a>
-
-
-      <!-- Nav Menu -->
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="index.html">হোম</a></li>
-          <li><a class="nav-link scrollto" href="#contact">আমাদের সম্পর্কে</a></li>
-          <li><a class="nav-link scrollto active" href="our-courses.html"> কোর্সসমূহ </a></li>
-          <li><a class="nav-link scrollto" href="upcomingBatch.html"> আপকামিং ব্যাচ </a></li>
-          <li><a class="nav-link scrollto" href="successStudents.html"> সাফল্য </a></li>
-          <li class="dropdown"><a href="#"><span> আইটি সেবাসমুহ </span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="https://www.pntdns.com/" target="_blank">ওয়েব হোস্টিং সার্ভিস</a></li>
-              <li><a href="https://peoplentech.net/" target="_blank">সফটওয়্যার সলিউশন </a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="contactUs.html">যোগাযোগ</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav> <!-- End Nav Menu -->
-
-    </div>
-  </header> <!-- End Header second Navbar -->
-
-
-  <main>
-    
-  <!-- Our course Page Title & Breadcrumbs -->
-  <section id="Page-breadcrumbs" class="Page-breadcrumbs">
-    <div class="container">
-      <div class="d-flex justify-content-between ">
-        <div class="d-flex flex-column w-100 gap-2 md:w-50">
-          <div class="d-flex align-items-center gap-2 page-home-link">
-            <a class="breadcrumbs-title" href="index.html">হোম</a>
-            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" fill="none" stroke="currentColor"
-              stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
-              class="breadcrumbs-arrow">
-              <polyline points="9 18 15 12 9 6"></polyline>
+  <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+    <!-- ======= Header ======= -->
+    <section id="topbar" class="topbar d-flex align-items-center">
+      <!-- Start Top Bar -->
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-telephone-outbound-fill d-flex align-items-center"
+            ><span>+880961-333-7448 / 0179-944-6655</span></i
+          >
+          <i class="bi bi-wechat d-flex align-items-center ms-4"
+            ><a href="mailto:contact@example.com">info@peoplentech.com.bd</a></i
+          >
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a
+            title="Twitter"
+            target="_blank"
+            href="https://twitter.com/peoplentech1?lang=en"
+            class="twitter"
+          >
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a
+            title="facebook"
+            target="_blank"
+            href="https://www.facebook.com/peoplentechbd"
+            class="facebook"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            title="Youtube"
+            target="_blank"
+            href="https://www.youtube.com/@PeopleNTechBangladesh"
+            class="youtube"
+            ><i class="bi bi-youtube"></i
+          ></a>
+          <a
+            title="linkedin"
+            target="_blank"
+            href="https://bd.linkedin.com/company/peoplentech-institute"
+            class="linkedin"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <button class="language-btn">
+            <svg
+              class="hidden md:block"
+              width="15"
+              height="14"
+              viewBox="0 0 15 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_9494_69309)">
+                <path
+                  d="M8.4129 12.71C8.34261 12.8852 8.17283 13 7.98407 13C7.65462 13 7.43101 12.6651 7.5573 12.3608L10.0079 6.45676C10.1226 6.18024 10.3926 6 10.692 6C10.9914 6 11.2613 6.18024 11.3761 6.45676L13.8267 12.3608C13.953 12.6651 13.7294 13 13.3999 13C13.2112 13 13.0414 12.8852 12.9711 12.71L10.7344 7.13611C10.7275 7.11878 10.7107 7.10742 10.692 7.10742C10.6733 7.10742 10.6565 7.11878 10.6496 7.13611L8.4129 12.71ZM8.66745 10.6416C8.66745 10.434 8.83578 10.2656 9.04342 10.2656H12.3406C12.5482 10.2656 12.7165 10.434 12.7165 10.6416C12.7165 10.8492 12.5482 11.0176 12.3406 11.0176H9.04342C8.83578 11.0176 8.66745 10.8492 8.66745 10.6416Z"
+                  fill="#6B7280"
+                ></path>
+                <path
+                  d="M8.75662 1C8.94575 1 9.09907 1.15332 9.09907 1.34244C9.09907 1.53157 8.94575 1.68489 8.75662 1.68489H8.0862V6.54228C8.0862 6.79507 7.88128 7 7.62848 7C7.45399 7 7.29663 6.8996 7.2092 6.74859C7.0493 6.47242 6.86254 6.22503 6.64891 6.00643C6.37238 5.71704 6.07656 5.46945 5.76145 5.26367L6.0026 4.62701C6.24698 4.76849 6.50099 4.96141 6.76466 5.20579C7.02833 5.45016 7.2309 5.69775 7.37238 5.94855C7.36595 5.85209 7.35952 5.76206 7.35309 5.67846C7.35309 5.59485 7.34987 5.50804 7.34344 5.41801C7.34344 5.32797 7.34344 5.23151 7.34344 5.12862V1.68489H0.634436C0.445309 1.68489 0.291992 1.53157 0.291992 1.34244C0.291992 1.15332 0.44531 1 0.634436 1H8.75662ZM4.01546 6.12219C3.57817 6.12219 3.16016 6.01929 2.76145 5.8135C2.36273 5.60772 1.98653 5.26045 1.63283 4.7717C1.33459 4.34644 1.05532 3.78598 0.795026 3.09035C0.722542 2.89664 0.82885 2.68352 1.02533 2.61892C1.21787 2.55562 1.42501 2.65882 1.49615 2.8486C1.68952 3.36445 1.88942 3.7997 2.09585 4.15434C2.35309 4.57878 2.63926 4.89068 2.95437 5.09003C3.26948 5.28939 3.62961 5.38907 4.03476 5.38907C4.38845 5.38907 4.67141 5.3344 4.88363 5.22508C5.10228 5.10932 5.25984 4.95498 5.3563 4.76206C5.45276 4.5627 5.501 4.34405 5.501 4.10611C5.501 3.73312 5.3981 3.43087 5.19231 3.19936C4.99296 2.96785 4.74215 2.85209 4.4399 2.85209C4.22768 2.85209 4.06691 2.90032 3.95759 2.99678C3.84826 3.08682 3.7936 3.22508 3.7936 3.41158C3.7936 3.45659 3.80003 3.51768 3.81289 3.59486C3.83172 3.70781 3.76689 3.82758 3.65455 3.84975L3.44714 3.89069C3.27022 3.9256 3.09239 3.82419 3.04741 3.64955C3.04177 3.62763 3.03648 3.60618 3.03154 3.58521C3.01225 3.46945 3.0026 3.36013 3.0026 3.25723C3.0026 3.01929 3.06691 2.81994 3.19553 2.65916C3.33058 2.49839 3.50099 2.37942 3.70678 2.30225C3.919 2.21865 4.14087 2.17685 4.37238 2.17685C4.7518 2.17685 5.07977 2.26367 5.3563 2.4373C5.63283 2.6045 5.84826 2.83601 6.0026 3.13183C6.15694 3.42765 6.23411 3.7717 6.23411 4.16399C6.23411 4.51125 6.15373 4.83601 5.99296 5.13826C5.83219 5.43408 5.58781 5.67203 5.25984 5.85209C4.93186 6.03215 4.51707 6.12219 4.01546 6.12219ZM3.70678 2.51447C3.67463 2.30868 3.57817 2.12862 3.41739 1.97428C3.26305 1.8135 3.03476 1.70096 2.73251 1.63666L2.96402 1.20257L3.3981 1.31833C3.76466 1.45981 4.02833 1.62058 4.1891 1.80064C4.34987 1.98071 4.44312 2.209 4.46884 2.48553L3.70678 2.51447Z"
+                  fill="#6B7280"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_9494_69309">
+                  <rect
+                    width="14"
+                    height="14"
+                    fill="white"
+                    transform="translate(0.291992)"
+                  ></rect>
+                </clipPath>
+              </defs>
             </svg>
-            <p class="page-link">কোর্সসমূহ</p>
-          </div>
-          <div class="d-flex flex-column gap-3 pb-5 md-pb-0">
-            <h1 class="breadcrumbs-main-title">
-             স্কিল ডেভেলপমেন্টের সকল কোর্সে ভর্তি চলছে
-            </h1>
-            <h3 class="breadcrumbs-main-details">
-              দেশ ও দেশের বাইরে বর্তমানে যে স্কিলগুলোর চাহিদা সবচেয়ে বেশি, সেগুলো অন্তর্ভুক্ত করেই সাজানো হয়েছে আমাদের
-              কোর্সের তালিকা। এখান থেকে আপনার সুবিধামত অনলাইন বা অফলাইনে কোর্সে এনরোল করতে পারবেন যেকোনো সময়।
-
-            </h3>
-          </div>
-        </div>
-        <div class="d-flex align-items-end justify-content-end">
-          <div class="d-none d-md-block">
-            <img src="assets/img/seminarBanner.webp" class="breadcrumbs-image img-fluid" loading="lazy"
-              alt="seminarBanner">
-          </div>
+            <span>বাং</span>
+          </button>
         </div>
       </div>
-    </div>
-  </section> <!-- End Our course Page Title -->
+    </section>
+    <!-- End Top Bar -->
 
+    <!-- ======= Header second Navbar ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- <h1 class="logo me-auto"><a href="index.html">PeopleNTech </a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo me-auto"
+          ><img
+            src="assets/img/PNT-orginal-PNG.png"
+            alt="Peoplentech-logo"
+            loading="lazy"
+            class="img-fluid"
+        /></a>
 
-
-  <!-- ======= our-course ======= -->
-  <section id="our-course" class="our-course">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="course-heading">
-            <h4>কোর্স ক্যাটাগরিগুলো এক্সপ্লোর করুন</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/infographic.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>ডিজিটাল মার্কেটিং</h4>
-                  <h5>৩০টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/server.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>নেটওয়ার্কিং টেকনোলজি</h4>
-                  <h5>০৫টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/web-design.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>ওয়েব এন্ড সফটওয়্যার</h4>
-                  <h5>২০টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/design.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>গ্রাফিক ডিজাইন</h4>
-                  <h5>০৯টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/paint-palette.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>সাইবার সিকিউরিটি</h4>
-                  <h5>০২টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-          <a href="courseCategory.html">
-            <div class="course-category-items">
-              <div>
-                <div class="category-image">
-                  <img src="assets/img/icons/smartphone.png" loading="lazy" class="img-fluid" alt="icons">
-                </div>
-                <div class="category-content">
-                  <h4>ক্লাউড কম্পিউটিং</h4>
-                  <h5>০৬টি কোর্স ➜ </h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Course Details -->
-
-  <!-- ======= our-course ======= -->
-  <section class="webCourse">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="course-heading">
-            <h4>ডিজাইন এন্ড মাল্টিমিডিয়া</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Graphic.jpeg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Paid</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">প্রফেশনাল গ্রাফিক ডিজাইন</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ ২8,000 <del class="course-discount">৳ 35,000</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৫০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Motion graphics.png" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">মোশন গ্রাফিক্স ডিজাইন</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/React-js.jpg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">ফ্রন্টএন্ড ডেভেলপমেন্ট উইথ রিঅ্যাক্ট</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (২,০০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Flutter.jpeg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">অ্যাপ ডেভেলপমেন্ট উইথ কটলিন</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৮০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Course Details -->
-
-  <!-- ======= our-course ======= -->
-  <section class="webCourse">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="course-heading">
-            <h4>নেটওয়ার্কিং টেকনোলজি</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Digital-Marketing.jpg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Paid</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">ডিজিটাল মার্কেটিং কোর্স</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ ৪০,০০০ <del class="course-discount">৳ ৪৫,০০০</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৭<span> (৯৬০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৮,৫০০ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/SMM.jpg" class="card-img-top course-banner" loading="lazy" alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Paid</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">সোশ্যাল মিডিয়া মার্কেটিং (SMM)</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ ২০,০০০ <del class="course-discount">৳ ২৫,০০০</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৫<span> (৯৬০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৭০০ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/CCNA.jpg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Paid</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">সিসকো সিসিএনএ</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ ২8,000 <del class="course-discount">৳ 35,000</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (২৮০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/CCNP.jpg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">সিসকো সিসিএনপ</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Course Details -->
-
-  <!-- ======= our-course ======= -->
-  <section class="webCourse">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="course-heading">
-            <h4>ওয়েব এন্ড সফটওয়্যার</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Graphic.jpeg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Paid</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">প্রফেশনাল গ্রাফিক ডিজাইন</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ ২8,000 <del class="course-discount">৳ 35,000</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৫০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Motion graphics.png" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">মোশন গ্রাফিক্স ডিজাইন</h4>
-                <div class="d-flex align-items-center justify-content-between">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/React-js.jpg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">ফ্রন্টএন্ড ডেভেলপমেন্ট উইথ রিঅ্যাক্ট</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (২,০০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-          <div class="card h-100 course-card">
-            <a href="#">
-              <img src="assets/img/Course/Flutter.jpeg" class="card-img-top course-banner" loading="lazy"
-                alt="course image">
-              <div class="course-offline">
-                <img class="money-icons" src="assets/img/icons/money-tk-circle-line.svg" loading="lazy" alt="money">
-                <p class="course-cate">Free</p>
-              </div>
-            </a>
-            <div class="card-body">
-              <a href="#">
-                <h4 class="course-title">অ্যাপ ডেভেলপমেন্ট উইথ কটলিন</h4>
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="course-money">৳ 3500 <del class="course-discount">৳ 3750</del></h5>
-                  <h6 class="student-Rating"><i class="bi bi-star-fill"></i> ৪.৯<span> (৮০০+)</span>
-                  </h6>
-                </div>
-              </a>
-              <div class="course-details-btn">
-                <div>
-                  <a href="#" class="details-btn">
-                    <span>বিস্তারিত</span>
-                    <i class="ri-arrow-right-line"></i>
-                  </a>
-                </div>
-                <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Course Details -->
-
-  </main>
-
-
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/PNT-white-png.png" class="img-fluid" loading="lazy" alt="" />
-          </a>
-          <p>
-            পিপলএনটেক ইনস্টিটিউট অফ আইটি সাফল্য সৃষ্টির লক্ষ্যে প্রতিষ্ঠিত একটি বিশ্বস্ত প্রতিষ্ঠান। প্রতিষ্ঠার পর থেকে,
-            পিপলএনটেক ইনস্টিটিউট অফ আইটি সুদীর্গ ০৯ বছর ধরে ডিজিটাল বাংলাদেশ নির্মাণে অবদান রেখে চলছে এবং যুগান্তকারী
-            পরিবর্তনের মাধ্যমে বহুমুখী সাফল্য অর্জন করছে।
-          </p>
-          <div class="social-links d-flex mt-4">
-            <a title="Twitter" href="https://twitter.com/peoplentech1?lang=en" target="_blank"><i
-                class="bi bi-twitter"></i></a>
-            <a title="Facebook" href="https://www.facebook.com/peoplentechbd" target="_blank"><i
-                class="bi bi-facebook"></i></a>
-            <a title="Youtube" href="https://www.youtube.com/@PeopleNTechBangladesh" target="_blank"><i
-                class="bi bi-youtube"></i></a>
-            <a title="linkedin" href="https://bd.linkedin.com/company/peoplentech-institute" target="_blank"><i
-                class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>কুইক লিংক</h4>
+        <!-- Nav Menu -->
+        <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="#">ফ্রি সেমিনারের সময়সূচী </a></li>
-            <li><a href="#">সফলতার গল্প</a></li>
-            <li><a href="#">আমাদের সম্পর্কে</a></li>
-            <li><a href="#">আমাদের গ্যালারী</a></li>
-            <li><a href="#">ব্যবহারকারীর শর্তাবলি</a></li>
-            <li><a href="#">স্টুডেন্ট ফিডব্যাক</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4> কোর্স সমূহ </h4>
-          <ul>
-            <li><a href="#">ওয়েব ডেভেলপমেন্ট</a></li>
-            <li><a href="#">প্রফেশনাল গ্রাফিক ডিজাইন</a></li>
-            <li><a href="#">ডিজিটাল মার্কেটিং</a></li>
-            <li><a href="#">মোশন গ্রাফিক্স</a></li>
-            <li><a href="#">মার্ন স্ট্যাক ডেভেলপমেন্ট</a></li>
-            <li><a href="#">প্রফেশনাল 3D অ্যানিমেশন</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start">
-          <h4>আমাদের যোগাযোগ মাধ্যম !</h4>
-          <div class="pnt-contact">
-            <span> <i class="ri-map-pin-range-line"></i>. </span>
-            <p>
-              <a target="_blank"
-                href="https://www.google.com/maps/place/PeopleNTech+Institute+of+IT+-+training+%26+Job+Placement+Service/@23.750716,90.386776,18z/data=!4m6!3m5!1s0x3755b8bb2b0758f9:0xe21afdf459453ff!8m2!3d23.7506748!4d90.3867103!16s%2Fg%2F11b7hfdhp7?hl=en-US&entry=ttu">151/7,
-                Good Luck Center (7th & 8th) Floor, Green Road, Dhaka
-                - 1205, Bangladesh</a>
-            </p>
-          </div>
-
-          <div class="pnt-contact">
-            <span> <i class="ri-phone-line"></i>. </span>
-            <p>
-              <a href="tel:+8801799446655">Regular: +880179-944-6655</a>
-            </p>
-          </div>
-
-          <div class="pnt-contact">
-            <span> <i class="ri-customer-service-2-line"></i>. </span>
-            <p>
-              <a href="tel:+8809613337448"> IP Phone: +880961-333-7448</a>
-            </p>
-          </div>
-          <div class="pnt-contact">
-            <span> <i class="ri-printer-line"></i>. </span>
-            <p>
-              <a href="fax:+5717662629"> E-Fax: (571)766-2629</a>
-            </p>
-          </div>
-          <div class="pnt-contact">
-            <span> <i class="ri-mail-unread-line"></i>. </span>
-            <p>
-              <a href="mailto:info@peoplentech.com.bd">
-                Email: info@peoplentech.com.bd
+            <li><a class="nav-link scrollto" href="index.html">হোম</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#contact">আমাদের সম্পর্কে</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto active" href="our-courses.html">
+                কোর্সসমূহ
               </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="upcomingBatch.html">
+                আপকামিং ব্যাচ
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="successStudents.html">
+                সাফল্য
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><span> আইটি সেবাসমুহ </span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li>
+                  <a href="https://www.wust.edu/" target="_blank"
+                    >সহযোগী বিশ্ববিদ্যালয়
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.pntdns.com/" target="_blank"
+                    >ওয়েব হোস্টিং সার্ভিস</a
+                  >
+                </li>
+                <li>
+                  <a href="https://peoplentech.net/" target="_blank"
+                    >সফটওয়্যার সলিউশন
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="contactUs.html">যোগাযোগ</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- End Nav Menu -->
+      </div>
+    </header>
+    <!-- End Header second Navbar -->
+
+    <main>
+      <!-- Our course Page Title & Breadcrumbs -->
+      <section id="Page-breadcrumbs" class="Page-breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column w-100 gap-2 md:w-50">
+              <div class="d-flex align-items-center gap-2 page-home-link">
+                <a class="breadcrumbs-title" href="index.html">হোম</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="breadcrumbs-arrow"
+                >
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+                <p class="page-link">কোর্সসমূহ</p>
+              </div>
+              <div class="d-flex flex-column gap-3 pb-5 md-pb-0">
+                <h1 class="breadcrumbs-main-title">
+                  স্কিল ডেভেলপমেন্টের সকল কোর্সে ভর্তি চলছে
+                </h1>
+                <h3 class="breadcrumbs-main-details">
+                  দেশ ও দেশের বাইরে বর্তমানে যে স্কিলগুলোর চাহিদা সবচেয়ে বেশি,
+                  সেগুলো অন্তর্ভুক্ত করেই সাজানো হয়েছে আমাদের কোর্সের তালিকা।
+                  এখান থেকে আপনার সুবিধামত অনলাইন বা অফলাইনে কোর্সে এনরোল করতে
+                  পারবেন যেকোনো সময়।
+                </h3>
+              </div>
+            </div>
+            <div class="d-flex align-items-end justify-content-end">
+              <div class="d-none d-md-block">
+                <img
+                  src="assets/img/seminarBanner.webp"
+                  class="breadcrumbs-image img-fluid"
+                  loading="lazy"
+                  alt="seminarBanner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Our course Page Title -->
+
+      <!-- ======= our-course ======= -->
+      <section id="our-course" class="our-course">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="course-heading">
+                <h4>কোর্স ক্যাটাগরিগুলো এক্সপ্লোর করুন</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/infographic.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>ডিজিটাল মার্কেটিং</h4>
+                      <h5>৩০টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/server.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>নেটওয়ার্কিং টেকনোলজি</h4>
+                      <h5>০৫টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/web-design.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>ওয়েব এন্ড সফটওয়্যার</h4>
+                      <h5>২০টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/design.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>গ্রাফিক ডিজাইন</h4>
+                      <h5>০৯টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/paint-palette.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>সাইবার সিকিউরিটি</h4>
+                      <h5>০২টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+              <a href="courseCategory.html">
+                <div class="course-category-items">
+                  <div>
+                    <div class="category-image">
+                      <img
+                        src="assets/img/icons/smartphone.png"
+                        loading="lazy"
+                        class="img-fluid"
+                        alt="icons"
+                      />
+                    </div>
+                    <div class="category-content">
+                      <h4>ক্লাউড কম্পিউটিং</h4>
+                      <h5>০৬টি কোর্স ➜</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Course Details -->
+
+      <!-- ======= our-course ======= -->
+      <section class="webCourse">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="course-heading">
+                <h4>ডিজাইন এন্ড মাল্টিমিডিয়া</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Graphic.jpeg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Paid</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">প্রফেশনাল গ্রাফিক ডিজাইন</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ ২8,000 <del class="course-discount">৳ 35,000</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৫০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Motion graphics.png"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">মোশন গ্রাফিক্স ডিজাইন</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/React-js.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">
+                      ফ্রন্টএন্ড ডেভেলপমেন্ট উইথ রিঅ্যাক্ট
+                    </h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span>
+                          (২,০০০+)</span
+                        >
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Flutter.jpeg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">অ্যাপ ডেভেলপমেন্ট উইথ কটলিন</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৮০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Course Details -->
+
+      <!-- ======= our-course ======= -->
+      <section class="webCourse">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="course-heading">
+                <h4>নেটওয়ার্কিং টেকনোলজি</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Digital-Marketing.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Paid</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">ডিজিটাল মার্কেটিং কোর্স</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ ৪০,০০০ <del class="course-discount">৳ ৪৫,০০০</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৭<span> (৯৬০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৮,৫০০ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/SMM.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Paid</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">সোশ্যাল মিডিয়া মার্কেটিং (SMM)</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ ২০,০০০ <del class="course-discount">৳ ২৫,০০০</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৫<span> (৯৬০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৭০০ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/CCNA.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Paid</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">সিসকো সিসিএনএ</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ ২8,000 <del class="course-discount">৳ 35,000</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (২৮০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/CCNP.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">সিসকো সিসিএনপ</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Course Details -->
+
+      <!-- ======= our-course ======= -->
+      <section class="webCourse">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="course-heading">
+                <h4>ওয়েব এন্ড সফটওয়্যার</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Graphic.jpeg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Paid</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">প্রফেশনাল গ্রাফিক ডিজাইন</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ ২8,000 <del class="course-discount">৳ 35,000</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৫০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯,৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Motion graphics.png"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">মোশন গ্রাফিক্স ডিজাইন</h4>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৯০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/React-js.jpg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">
+                      ফ্রন্টএন্ড ডেভেলপমেন্ট উইথ রিঅ্যাক্ট
+                    </h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span>
+                          (২,০০০+)</span
+                        >
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="card h-100 course-card">
+                <a href="#">
+                  <img
+                    src="assets/img/Course/Flutter.jpeg"
+                    class="card-img-top course-banner"
+                    loading="lazy"
+                    alt="course image"
+                  />
+                  <div class="course-offline">
+                    <img
+                      class="money-icons"
+                      src="assets/img/icons/money-tk-circle-line.svg"
+                      loading="lazy"
+                      alt="money"
+                    />
+                    <p class="course-cate">Free</p>
+                  </div>
+                </a>
+                <div class="card-body">
+                  <a href="#">
+                    <h4 class="course-title">অ্যাপ ডেভেলপমেন্ট উইথ কটলিন</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="course-money">
+                        ৳ 3500 <del class="course-discount">৳ 3750</del>
+                      </h5>
+                      <h6 class="student-Rating">
+                        <i class="bi bi-star-fill"></i> ৪.৯<span> (৮০০+)</span>
+                      </h6>
+                    </div>
+                  </a>
+                  <div class="course-details-btn">
+                    <div>
+                      <a href="#" class="details-btn">
+                        <span>বিস্তারিত</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </a>
+                    </div>
+                    <h6 class="count-student">৩৯৮৮৭ শিক্ষার্থী</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Course Details -->
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img
+                src="assets/img/PNT-white-png.png"
+                class="img-fluid"
+                loading="lazy"
+                alt=""
+              />
+            </a>
+            <p>
+              পিপলএনটেক ইনস্টিটিউট অফ আইটি সাফল্য সৃষ্টির লক্ষ্যে প্রতিষ্ঠিত
+              একটি বিশ্বস্ত প্রতিষ্ঠান। প্রতিষ্ঠার পর থেকে, পিপলএনটেক ইনস্টিটিউট
+              অফ আইটি সুদীর্গ ০৯ বছর ধরে ডিজিটাল বাংলাদেশ নির্মাণে অবদান রেখে
+              চলছে এবং যুগান্তকারী পরিবর্তনের মাধ্যমে বহুমুখী সাফল্য অর্জন করছে।
             </p>
+            <div class="social-links d-flex mt-4">
+              <a
+                title="Twitter"
+                href="https://twitter.com/peoplentech1?lang=en"
+                target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a
+                title="Facebook"
+                href="https://www.facebook.com/peoplentechbd"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                title="Youtube"
+                href="https://www.youtube.com/@PeopleNTechBangladesh"
+                target="_blank"
+                ><i class="bi bi-youtube"></i
+              ></a>
+              <a
+                title="linkedin"
+                href="https://bd.linkedin.com/company/peoplentech-institute"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>কুইক লিংক</h4>
+            <ul>
+              <li><a href="#">ফ্রি সেমিনারের সময়সূচী </a></li>
+              <li><a href="#">সফলতার গল্প</a></li>
+              <li><a href="#">আমাদের সম্পর্কে</a></li>
+              <li><a href="#">আমাদের গ্যালারী</a></li>
+              <li><a href="#">ব্যবহারকারীর শর্তাবলি</a></li>
+              <li><a href="#">স্টুডেন্ট ফিডব্যাক</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>কোর্স সমূহ</h4>
+            <ul>
+              <li><a href="#">ওয়েব ডেভেলপমেন্ট</a></li>
+              <li><a href="#">প্রফেশনাল গ্রাফিক ডিজাইন</a></li>
+              <li><a href="#">ডিজিটাল মার্কেটিং</a></li>
+              <li><a href="#">মোশন গ্রাফিক্স</a></li>
+              <li><a href="#">মার্ন স্ট্যাক ডেভেলপমেন্ট</a></li>
+              <li><a href="#">প্রফেশনাল 3D অ্যানিমেশন</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>আমাদের যোগাযোগ মাধ্যম !</h4>
+            <div class="pnt-contact">
+              <span> <i class="ri-map-pin-range-line"></i>. </span>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/place/PeopleNTech+Institute+of+IT+-+training+%26+Job+Placement+Service/@23.750716,90.386776,18z/data=!4m6!3m5!1s0x3755b8bb2b0758f9:0xe21afdf459453ff!8m2!3d23.7506748!4d90.3867103!16s%2Fg%2F11b7hfdhp7?hl=en-US&entry=ttu"
+                  >151/7, Good Luck Center (7th & 8th) Floor, Green Road, Dhaka
+                  - 1205, Bangladesh</a
+                >
+              </p>
+            </div>
+
+            <div class="pnt-contact">
+              <span> <i class="ri-phone-line"></i>. </span>
+              <p>
+                <a href="tel:+8801799446655">Regular: +880179-944-6655</a>
+              </p>
+            </div>
+
+            <div class="pnt-contact">
+              <span> <i class="ri-customer-service-2-line"></i>. </span>
+              <p>
+                <a href="tel:+8809613337448"> IP Phone: +880961-333-7448</a>
+              </p>
+            </div>
+            <div class="pnt-contact">
+              <span> <i class="ri-printer-line"></i>. </span>
+              <p>
+                <a href="fax:+5717662629"> E-Fax: (571)766-2629</a>
+              </p>
+            </div>
+            <div class="pnt-contact">
+              <span> <i class="ri-mail-unread-line"></i>. </span>
+              <p>
+                <a href="mailto:info@peoplentech.com.bd">
+                  Email: info@peoplentech.com.bd
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="Pay-With container">
-      <div class="row">
-        <div class="col-lg-12">
-          <img class="img-fluid" src="assets/img/Pay With.webp" alt="" />
+      <div class="Pay-With container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img class="img-fluid" src="assets/img/Pay With.webp" alt="" />
+          </div>
         </div>
       </div>
+
+      <div class="copyright text-center mt-4">
+        <p>
+          &copy; <span>Copyright 2023 </span>
+          <strong class="px-1 company-name"
+            >PeopleNTech Institute of IT.</strong
+          >
+          <span> All right reserved | </span>
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scroll Top Button -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Chat message -->
+    <a
+      class="Chat-message d-flex align-items-center justify-content-center"
+      type="button"
+      href="#"
+      data-bs-toggle="tooltip"
+      data-bs-placement="bottom"
+      data-bs-title="Tooltip on bottom"
+    >
+      <svg
+        width="32"
+        height="33"
+        viewBox="0 0 29 30"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.5002 10.1999H22.9002C24.2257 10.1999 25.3002 11.2744 25.3002 12.5999V19.7999C25.3002 21.1254 24.2257 22.1999 22.9002 22.1999H20.5002V26.9999L15.7002 22.1999H10.9002C10.2375 22.1999 9.63745 21.9313 9.20314 21.497M9.20314 21.497L13.3002 17.3999H18.1002C19.4257 17.3999 20.5002 16.3254 20.5002 14.9999V7.7999C20.5002 6.47442 19.4257 5.3999 18.1002 5.3999H6.1002C4.77471 5.3999 3.7002 6.47442 3.7002 7.7999V14.9999C3.7002 16.3254 4.77471 17.3999 6.1002 17.3999H8.5002V22.1999L9.20314 21.497Z"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </svg>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <span class="loader"></span>
     </div>
 
-    <div class="copyright text-center mt-4">
-      <p>
-        &copy; <span>Copyright 2023 </span>
-        <strong class="px-1 company-name">PeopleNTech Institute of IT.</strong>
-        <span> All right reserved | </span>
-      </p>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
+    <!-- Language Toggle Button Js -->
+    <script>
+      // Get the button element
+      var button = document.querySelector('.language-btn');
 
-  <!-- Scroll Top Button -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      // Get the span element inside the button
+      var span = button.querySelector('span');
 
-  <!-- Chat message -->
-  <a class="Chat-message d-flex align-items-center justify-content-center" type="button" href="#"
-    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+      // Define an array of text values to toggle
+      var textValues = ['বাং', 'EN'];
 
-    <svg width="32" height="33" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M20.5002 10.1999H22.9002C24.2257 10.1999 25.3002 11.2744 25.3002 12.5999V19.7999C25.3002 21.1254 24.2257 22.1999 22.9002 22.1999H20.5002V26.9999L15.7002 22.1999H10.9002C10.2375 22.1999 9.63745 21.9313 9.20314 21.497M9.20314 21.497L13.3002 17.3999H18.1002C19.4257 17.3999 20.5002 16.3254 20.5002 14.9999V7.7999C20.5002 6.47442 19.4257 5.3999 18.1002 5.3999H6.1002C4.77471 5.3999 3.7002 6.47442 3.7002 7.7999V14.9999C3.7002 16.3254 4.77471 17.3999 6.1002 17.3999H8.5002V22.1999L9.20314 21.497Z"
-        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-    </svg>
-  </a>
+      // Initialize a variable to keep track of the current text index
+      var textIndex = 0;
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <span class="loader"></span>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <!-- Language Toggle Button Js -->
-  <script>
-    // Get the button element
-    var button = document.querySelector('.language-btn');
-
-    // Get the span element inside the button
-    var span = button.querySelector('span');
-
-    // Define an array of text values to toggle
-    var textValues = ['বাং', 'EN'];
-
-    // Initialize a variable to keep track of the current text index
-    var textIndex = 0;
-
-    // Add a click event listener to the button
-    button.addEventListener('click', function () {
-      // Toggle the text inside the span
-      textIndex = (textIndex + 1) % textValues.length;
-      span.textContent = textValues[textIndex];
-    });
-
-  </script><!-- End Language Toggle Button Js -->
-
-</body>
-
+      // Add a click event listener to the button
+      button.addEventListener('click', function () {
+        // Toggle the text inside the span
+        textIndex = (textIndex + 1) % textValues.length;
+        span.textContent = textValues[textIndex];
+      });
+    </script>
+    <!-- End Language Toggle Button Js -->
+  </body>
 </html>
