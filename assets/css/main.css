@@ -1524,6 +1524,20 @@ section {
   border: 1px solid #98a2b3;
   box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
 }
+#whypeoplentech .facilities-color06 {
+  background: rgba(32, 207, 54, 0.1);
+  border: none;
+}
+
+#whypeoplentech .facilities-color05 {
+  background: rgba(32, 78, 207, 0.1);
+  border: none;
+}
+
+#whypeoplentech .facilities-color04 {
+  background: rgba(0, 204, 131, 0.1);
+  border: none;
+}
 
 #whypeoplentech .facilities-color03 {
   background: #e9f6ff;
