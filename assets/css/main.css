@@ -1431,6 +1431,11 @@ section {
 /*--------------------------------------------------------------
 # Upcoming Batches 
 --------------------------------------------------------------*/
+#upcomingBatches {
+  background-image: url('../img/upcoming-home.png');
+  background-size: cover;
+  background-position: center center;
+}
 #upcomingBatches .upcomingBatches-next {
   background-color: #7f7f7f;
   color: #fff;
