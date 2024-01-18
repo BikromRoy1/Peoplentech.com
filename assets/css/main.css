@@ -1164,10 +1164,10 @@ section {
   color: var(--contrast-color);
 }
 #course-category .course-category-items:hover .category-image {
-  background: #fff;
+  background: #f5f5f6;
 }
 #course-category .course-category-items .category-image {
-  background: #bec8db47;
+  background: #f5f5f6;
   width: 5rem;
   height: 5rem;
   border-radius: 50px;
@@ -3341,4 +3341,25 @@ section {
 }
 #aboutVideos .PNT-videos .play-icons img {
   width: 70px;
+}
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# About Our Company
+--------------------------------------------------------------*/
+#aboutCompany h2 {
+  font-family: var(--Bangla-font);
+  color: var(--text-primary-color);
+  margin: 0px 0 14px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+}
+#aboutCompany p {
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
 }
