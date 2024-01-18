@@ -1,0 +1,82 @@
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# About videos
+--------------------------------------------------------------*/
+#aboutVideos {
+  /* background: radial-gradient(95.36% 95.12% at 110% 13%, #f9c1a7 0, #fff 100%); */
+  background: radial-gradient(
+    92.39% 92.39% at 36.15% 19.05%,
+    #ffd1b7 0,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+#aboutVideos h1 {
+  font-family: var(--Bangla-font);
+  color: var(--secondary-color);
+  letter-spacing: 0.20000000298023224px;
+  margin: 0;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 28px;
+}
+#aboutVideos h2 {
+  font-family: var(--Bangla-font);
+  color: var(--text-primary-color);
+  margin: 8px 0 14px 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.20000000298023224px;
+}
+#aboutVideos p {
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: normal;
+}
+#aboutVideos .PNT-videos {
+  border-radius: 20px;
+  background: linear-gradient(
+    252.86deg,
+    rgba(241, 88, 30, 0.9) 0.98%,
+    rgba(255, 209, 183, 0.9) 98.43%
+  );
+  opacity: 0.8;
+  padding: 10px;
+  position: relative;
+}
+#aboutVideos .PNT-videos .videos-banner {
+  border-radius: 20px;
+}
+#aboutVideos .PNT-videos .play-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#aboutVideos .PNT-videos .play-icons img {
+  width: 70px;
+}
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# About Our Company
+--------------------------------------------------------------*/
+#aboutCompany h2 {
+  font-family: var(--Bangla-font);
+  color: var(--text-primary-color);
+  margin: 0px 0 14px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+}
+#aboutCompany p {
+  font-family: var(--Bangla-font);
+  color: var(--text-secondary-color);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+}
