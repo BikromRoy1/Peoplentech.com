@@ -1,0 +1,171 @@
+/* ?? Contact us -Pages  */
+/*--------------------------------------------------------------
+# Office Contact List
+--------------------------------------------------------------*/
+#office-contact-list .office-contact-card {
+  padding: 15px;
+  background: var(--contrast-color);
+  border: 1px solid #98a2b3;
+  box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
+  border-radius: 8px;
+  height: 100%;
+}
+#office-contact-list .office-contact-card .contact-info {
+  margin-bottom: 15px;
+}
+#office-contact-list .office-contact-card .contact-info:last-child {
+  margin-bottom: 0px;
+}
+#office-contact-list .office-contact-card .contact-info h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary-color);
+}
+#office-contact-list .office-contact-card .contact-info .card-contact {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  background: #dfdfe357;
+  margin-top: 4px;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+#office-contact-list .office-contact-card .contact-info .card-contact i {
+  font-size: 20px;
+  font-weight: normal;
+}
+#office-contact-list .office-contact-card .contact-info .card-contact h5 {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#office-contact-list .office-contact-card .contact-info .card-contact a {
+  font-size: 14px;
+}
+
+/* ?? Contact us -Pages  */
+/*--------------------------------------------------------------
+# Others Office Contact List
+--------------------------------------------------------------*/
+#otherContact {
+  padding-top: 0px;
+}
+#otherContact .others-office-card {
+  padding: 20px;
+  background: var(--contrast-color);
+  border: 1px solid #98a2b3;
+  box-shadow: 0 4px 8px -8px rgba(8, 31, 77, 0.2);
+  border-radius: 8px;
+  height: 100%;
+}
+#otherContact .others-office-card h4 {
+  color: var(--text-primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 13px;
+  line-height: 26px;
+}
+#otherContact .others-office-card p {
+  color: #a1a1a8;
+  margin-bottom: 6px;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  font-size: 15px;
+}
+#otherContact .others-office-card a {
+  background: #f7f8f9;
+  color: var(--text-primary-color);
+  padding: 5px 14px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#otherContact .others-office-card a i {
+  margin-left: 6px;
+  color: var(--text-primary-color);
+}
+/* ?? Contact us -Pages  */
+/*--------------------------------------------------------------
+# Contact from
+--------------------------------------------------------------*/
+#contactFrom {
+  padding-top: 0px;
+}
+
+.contactFrom .php-email-form input,
+.contactFrom .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.contactFrom .php-email-form input:focus,
+.contactFrom .php-email-form textarea:focus {
+  border-color: var(--secondary-color);
+}
+.contactFrom .php-email-form input {
+  height: 44px;
+}
+.contactFrom .php-email-form textarea {
+  padding: 10px 12px;
+}
+.contactFrom .php-email-form label {
+  font-family: var(--Bangla-font);
+}
+.contactFrom .contact-subtitle {
+  color: var(--text-secondary-color);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: var(--Bangla-font);
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+}
+.contactFrom .contact-title {
+  color: var(--text-primary-color);
+  font-size: 23px;
+  font-weight: 600;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  line-height: 30px;
+}
+.contactFrom .follow-contact {
+  font-weight: 600;
+  font-size: 22px;
+}
+#contactFrom .contact-image {
+  height: 460px;
+}
+.contactFrom .twitter i {
+  color: rgb(29, 161, 242);
+  font-size: 20px;
+}
+.contactFrom .facebook i {
+  color: rgb(66, 103, 178);
+  font-size: 20px;
+}
+.contactFrom .youtube i {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+.contactFrom .linkedin i {
+  color: rgb(0, 119, 181);
+  font-size: 20px;
+}
+#contactFrom .message-btn {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  transition: 0.3s all;
+  font-family: var(--Bangla-font);
+}
+#contactFrom .message-btn:hover {
+  background: var(--main-button-hover-color);
+}
+
+/* ?? Contact us -Pages  */
+/*--------------------------------------------------------------
+# ADD GOOGLE MAPS
+--------------------------------------------------------------*/
+#googleMap {
+  padding: 0px 0px;
+}

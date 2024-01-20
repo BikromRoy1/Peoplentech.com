@@ -23,9 +23,9 @@
   font-family: var(--Bangla-font);
   color: var(--text-primary-color);
   margin: 8px 0 14px 0;
-  font-size: 42px;
+  font-size: 39px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 50px;
   letter-spacing: 0.20000000298023224px;
 }
 #aboutVideos p {
@@ -57,7 +57,7 @@
   transform: translate(-50%, -50%);
 }
 #aboutVideos .PNT-videos .play-icons img {
-  width: 70px;
+  width: 80px;
 }
 /* ?? About US -Pages  */
 /*--------------------------------------------------------------
@@ -79,4 +79,48 @@
   font-size: 16px;
   line-height: 26px;
   font-weight: normal;
+}
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# Our Mission and Our Visions
+--------------------------------------------------------------*/
+#misstionVisions {
+  padding-top: 10px;
+}
+#misstionVisions .misstionVisions-content {
+  background: #f6f9fc;
+  height: 100%;
+  padding: 25px;
+  border-radius: 15px;
+}
+#misstionVisions .misstionVisions-content .mission-icons {
+  background: #1b548d;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#misstionVisions .misstionVisions-content .mission-icons img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+#misstionVisions .misstionVisions-content h4 {
+  color: var(--text-primary-color);
+  font-size: 23px;
+  font-weight: 600;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  line-height: 30px;
+}
+#misstionVisions .misstionVisions-content p {
+  color: var(--text-secondary-color);
+  font-family: var(--Bangla-font);
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
 }
