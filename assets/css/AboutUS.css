@@ -120,7 +120,37 @@
   color: var(--text-secondary-color);
   font-family: var(--Bangla-font);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   padding-bottom: 0;
+  margin-bottom: 0px;
+}
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# Message CEO
+--------------------------------------------------------------*/
+#messageCeo .messageCeo-content p {
+  color: var(--text-secondary-color);
+  font-family: var(--Bangla-font);
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 0;
+}
+#messageCeo .messageCeo-content .ceoName {
+  padding-top: 13px;
+}
+#messageCeo .messageCeo-content .ceoName h4 {
+  font-family: var(--Bangla-font);
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0.20000000298023224px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+#messageCeo .messageCeo-content .ceoName h5 {
+  font-family: var(--Bangla-font);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.20000000298023224px;
+  color: var(--text-secondary-color);
   margin-bottom: 0px;
 }

@@ -2002,7 +2002,7 @@ section {
 .footer .footer-about p {
   font-size: 16px;
   font-family: var(--heading-font);
-  color: #b3c1d3;
+  color: #9ca3af;
   font-family: var(--Bangla-font);
   line-height: 26px;
 }
@@ -2016,7 +2016,7 @@ section {
   border-radius: 50%;
   /* border: 1px solid rgba(var(--default-color-rgb), 0.5); */
   font-size: 16px;
-  color: #b3c1d3;
+  color: #9ca3af;
   margin-right: 10px;
   transition: 0.3s;
   background-color: #1e2c46;
@@ -2091,7 +2091,7 @@ section {
 }
 
 .footer .footer-links ul a {
-  color: #aebbce;
+  color: #9ca3af;
   display: inline-block;
   line-height: 1;
 }
@@ -2158,7 +2158,7 @@ section {
 }
 
 .footer .pnt-contact p a {
-  color: #aebbce;
+  color: #9ca3af;
   transition: 0.3s all;
 }
 
