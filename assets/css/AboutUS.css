@@ -80,6 +80,15 @@
   line-height: 26px;
   font-weight: normal;
 }
+#aboutCompany .hstack-icons {
+  height: 20px;
+}
+#aboutCompany .hstack h6 {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  font-weight: 500;
+}
 /* ?? About US -Pages  */
 /*--------------------------------------------------------------
 # Our Mission and Our Visions
