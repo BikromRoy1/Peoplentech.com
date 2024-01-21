@@ -301,4 +301,37 @@
       },
     },
   });
+
+  // Student FeedBack
+  new Swiper('.awards-slider', {
+    speed: 400,
+    loop: true,
+    // navigation: {
+    //   nextEl: '.feedback-next',
+    //   prevEl: '.feedback-prev',
+    // },
+    slidesPerView: 'auto',
+    breakpoints: {
+      414: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      992: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      1200: {
+        slidesPerView: 1,
+        spaceBetween: 23,
+      },
+    },
+  });
 })();
