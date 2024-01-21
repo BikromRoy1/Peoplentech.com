@@ -302,15 +302,15 @@
     },
   });
 
-  // Student FeedBack
+  // Awards
   new Swiper('.awards-slider', {
     speed: 400,
     loop: true,
-    // navigation: {
-    //   nextEl: '.feedback-next',
-    //   prevEl: '.feedback-prev',
-    // },
     slidesPerView: 'auto',
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
     breakpoints: {
       414: {
         slidesPerView: 1,
