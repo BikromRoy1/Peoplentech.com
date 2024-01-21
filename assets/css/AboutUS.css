@@ -163,3 +163,28 @@
   color: var(--text-secondary-color);
   margin-bottom: 0px;
 }
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# awards
+--------------------------------------------------------------*/
+#awards .awards-text {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+#awards .awards-image {
+  border-radius: 5px 0px 0px 5px;
+}
+#awards .awards-title {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#awards .awards-name {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+}
