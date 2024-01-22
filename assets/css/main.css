@@ -3093,7 +3093,88 @@ section {
 .upcomingBatch-list {
   padding-top: 10px;
 }
+.upcomingBatchList .upcomingBatchList-table {
+  background: #fff;
+  border: 1px solid #eaecf0;
+  border-radius: 4px;
+  /* padding: 12px 16px; */
+}
 
+.upcomingBatchList .upcomingBatchList-table th {
+  padding: 12px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  background: #f2f4f6;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.upcomingBatchList .upcomingBatchList-table td {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-weight: 500;
+  padding: 12px 8px;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--text-secondary-color);
+  text-transform: uppercase;
+}
+.upcomingBatchList .upcomingBatchList-table .admid-btn {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+}
+.Batch-color04 {
+  color: #f8285a !important;
+  font-weight: 600 !important;
+}
+
+.Batch-color03 {
+  color: #1b84ff !important;
+  font-weight: 600 !important;
+}
+.Batch-color02 {
+  background: #ffeef3;
+  color: #f8285a;
+}
+.Batch-color01 {
+  background: #dfffea;
+  /* background: #12b76a; */
+  color: #12b76a;
+}
+.upcomingBatchList .upcomingBatchList-table .upcoming-online {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  padding: 1px 5px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.upcomingBatchList .upcomingBatchList-table .price {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  color: #ff8c4b;
+  font-weight: 700;
+  font-size: 16px;
+}
+.upcomingBatchList .upcomingBatchList-table .day {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  background: #FFF8DD;
+  color: #ffc000;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 6px;
+}
 /* ?? Success Student -Pages  */
 /*--------------------------------------------------------------
 # Success Student List

@@ -85,6 +85,57 @@
   margin-left: 6px;
   color: var(--text-primary-color);
 }
+#otherContact .Office-image {
+  background-image: linear-gradient(358.68deg, #000 6.57%, transparent 100.85%),
+    url('../img/BD-CITY.png');
+  background-size: cover;
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+#otherContact .Office-description {
+  position: absolute;
+  bottom: 19px;
+  color: #fff;
+  padding: 10px 25px;
+}
+#otherContact .Office-description h2 {
+  color: #ffc107;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 26px;
+}
+#otherContact .Office-description h4 {
+  color: var(--contrast-color);
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+#otherContact .Office-description p {
+  color: #d1d5db;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+#otherContact .office-location {
+  margin-top: 10px;
+}
+#otherContact .office-location a {
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 16px 4px 16px;
+  transition: 0.5s;
+  font-family: var(--Bangla-font);
+  background: var(--primary-color);
+  color: var(--contrast-color);
+}
 /* ?? Contact us -Pages  */
 /*--------------------------------------------------------------
 # Contact from
