@@ -3167,13 +3167,247 @@ section {
 .upcomingBatchList .upcomingBatchList-table .day {
   font-family: var(--Bangla-font);
   letter-spacing: 0.20000000298023224px;
-  background: #FFF8DD;
+  background: #fff8dd;
   color: #ffc000;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
   padding: 1px 5px;
   border-radius: 6px;
+}
+/* More design */
+#upcomingBatchList-new .upcomingBatchList-join a {
+  font-family: var(--Bangla-font);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  transition: 0.5s;
+}
+#upcomingBatchList-new .upcomingBatchList-join a:hover {
+  color: var(--contrast-color);
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+#upcomingBatchList-new .upcomingBatchList-list-inner {
+  border-bottom: 1px solid #bae6fd;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#upcomingBatchList-new .single-upcomingBatchList-list-inner {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#upcomingBatchList-new .single-upcomingBatchList-list-inner .date {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  font-family: var(--Bangla-font);
+  display: inline-block;
+  border-radius: 7px;
+  font-size: 23px;
+  font-weight: 700;
+  width: 70px;
+  letter-spacing: 0.2px;
+  height: 60px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 14px;
+}
+
+#upcomingBatchList-new .single-upcomingBatchList-list-inner .date span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#upcomingBatchList-new
+  .single-upcomingBatchList-list-inner
+  .upcomingBatchList-meta {
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+}
+
+#upcomingBatchList-new
+  .single-upcomingBatchList-list-inner
+  .upcomingBatchList-meta
+  .Time {
+  color: var(--contrast-color);
+  display: inline-block;
+  margin-right: 12px;
+  font-family: var(--Bangla-font);
+}
+
+#upcomingBatchList-new
+  .single-upcomingBatchList-list-inner
+  .upcomingBatchList-meta
+  .Time
+  h6 {
+  color: var(--text-secondary-color);
+  font-family: var(--Bangla-font);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#upcomingBatchList-new
+  .single-upcomingBatchList-list-inner
+  .upcomingBatchList-meta
+  .Time
+  h6
+  i {
+  margin-right: 5px;
+  font-weight: normal;
+}
+
+#upcomingBatchList-new .single-upcomingBatchList-list-inner .details h4 {
+  color: var(--text-primary-color);
+  font-family: var(--Bangla-font);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+#upcomingBatchList-new .upcominglist-items {
+  background: #fff;
+  border: 1px solid #eaecf0;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+#upcomingBatchList-new .upcominglist-time {
+  background: var(--primary-color);
+  padding: 20px 8px;
+  color: var(--contrast-color);
+  text-align: center;
+  border-radius: 6px;
+}
+#upcomingBatchList-new .upcominglist-time h4 {
+  color: var(--contrast-color);
+  font-family: var(--Bangla-font);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+}
+#upcomingBatchList-new .upcominglist-time p {
+  font-family: var(--Bangla-font);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+#upcomingBatchList-new .upcominglist-button {
+  text-align: end;
+}
+#upcomingBatchList-new .upcominglist-button .admison-btn {
+  margin-bottom: 13px;
+}
+#upcomingBatchList-new .upcominglist-button .admison-btn a {
+  font-family: var(--Bangla-font);
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  transition: 0.5s;
+}
+#upcomingBatchList-new .upcominglist-button .detail-btn a {
+  font-family: var(--Bangla-font);
+  background: #f8285a;
+  color: var(--contrast-color);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  transition: 0.5s;
+}
+#upcomingBatchList-new .upcoming-title h4 {
+  color: var(--text-primary-color);
+  font-family: var(--Bangla-font);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+#upcomingBatchList-new .upcoming-cours {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 {
+  font-weight: 600;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-secondary-color);
+  margin-bottom: 4px;
+}
+.upcomingColor01 {
+  color: #1b84ff;
+}
+
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 .day {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  background: #fff8dd;
+  color: #ffc000;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.Batch-color02 {
+  background: #ffeef3;
+  color: #f8285a;
+}
+.Batch-color01 {
+  background: #dfffea;
+  color: #12b76a;
+}
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 .upcoming-online {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  padding: 1px 5px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 5px;
+}
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 .price {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  color: #ff8c4b;
+  font-weight: 700;
+  font-size: 16px;
+}
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 .discount {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  color: var(--text-secondary-color);
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 6px;
+}
+#upcomingBatchList-new .upcoming-cours .upcoming-code h5 .admision-date {
+  color: #f8285a;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-weight: 700;
+  font-size: 16px;
 }
 /* ?? Success Student -Pages  */
 /*--------------------------------------------------------------
