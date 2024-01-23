@@ -87,3 +87,10 @@
   color: #fff;
   border: none;
 }
+#teacherProfile .rating {
+  font-weight: 500;
+  font-size: 15px;
+}
+#teacherProfile .star i {
+  font-size: 18px;
+}
