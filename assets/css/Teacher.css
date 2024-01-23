@@ -1,3 +1,56 @@
-.help {
-  background: var(--primary-color);
+/* ?? Teacher List -Pages  */
+/*--------------------------------------------------------------
+# List of Teacher
+--------------------------------------------------------------*/
+.twitter-color {
+  color: #1da1f2;
+}
+
+.facebook-color {
+  color: #4267b2;
+}
+.instagram-color {
+  color: transparent;
+  background: radial-gradient(
+    circle at 20% 130%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  background-size: 120% 120%;
+}
+
+.linkedin-color {
+  color: #0077b5;
+}
+#teacherList .job-title {
+  font-weight: 600;
+  color: #f8285a;
+  font-size: 17px;
+  letter-spacing: 0.20000000298023224px;
+}
+#teacherList .teacher-name a {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text-primary-color);
+  letter-spacing: 0.20000000298023224px;
+  line-height: 26px;
+}
+#teacherList .teacher-name a:hover {
+  color: var(--primary-color);
+}
+#teacherList .teacher-profession {
+  font-weight: 400;
+}
+#teacherList .teacher-Content {
+  color: var(--text-secondary-color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#teacherList .card {
+  border: none;
 }
