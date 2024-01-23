@@ -94,3 +94,27 @@
 #teacherProfile .star i {
   font-size: 18px;
 }
+#teacherProfile .card {
+  border: none;
+}
+#teacherProfile .icon-md {
+  width: 2.6rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  font-size: 23px;
+  background: #dfffea;
+  color: #12b76a;
+}
+#teacherProfile .Education h6 {
+  color: var(--text-primary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+#teacherProfile .title-profile {
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+}
