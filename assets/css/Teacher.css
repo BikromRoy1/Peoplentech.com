@@ -54,3 +54,36 @@
 #teacherList .card {
   border: none;
 }
+/* ?? Teacher List -Pages  */
+/*--------------------------------------------------------------
+# Teacher Profile
+--------------------------------------------------------------*/
+#teacherProfile .bg-facebook {
+  background-color: #5d82d1;
+  color: var(--contrast-color);
+  border: none;
+}
+#teacherProfile .bg-instagram-gradient {
+  background: radial-gradient(
+    circle at 20% 130%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border: none;
+  color: #fff;
+  background-size: 120% 120%;
+  background-position: right bottom;
+}
+#teacherProfile .bg-twitter {
+  background-color: #40bff5;
+  color: #fff;
+  border: none;
+}
+#teacherProfile .bg-linkedin {
+  background-color: #238cc8;
+  color: #fff;
+  border: none;
+}
