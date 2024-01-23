@@ -118,3 +118,29 @@
   line-height: 26px;
   letter-spacing: 0.20000000298023224px;
 }
+#teacherProfile .Progress-title {
+  font-size: 16px;
+  color: var(--text-primary-color);
+  font-weight: 600;
+}
+#teacherProfile .progress-sm {
+  height: 7px;
+}
+#teacherProfile .progress {
+  position: relative;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+#teacherProfile .progress-bar {
+  position: relative;
+  overflow: visible;
+  border-radius: 0.325rem;
+}
+#teacherProfile .progress-percent-simple {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 14px;
+  color: var(--text-primary-color);
+}
