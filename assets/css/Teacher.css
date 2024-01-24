@@ -169,4 +169,13 @@
 }
 #teacherProfile .Personal-info li {
   padding-bottom: 8px;
+  font-size: 15px;
+}
+#teacherProfile .Personal-info li i {
+  color: var(--primary-color);
+  font-weight: normal;
+  font-size: 18px;
+}
+#teacherProfile .Personal {
+  color: #747579;
 }
