@@ -203,3 +203,42 @@
 #teacherProfile .bg-orange {
   background-color: rgba(253, 126, 20, 0.1);
 }
+#teacherProfile .TagLine h5 {
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.tag-color01 {
+  background: #dfffea;
+  color: #12b76a;
+}
+.tag-color02 {
+  background: #ffeef3;
+  color: #f8285a;
+}
+.tag-color03 {
+  background: #fff8dd;
+  color: #ffc000;
+}
+.tag-color04 {
+  background-color: rgba(111, 66, 193, 0.1);
+  color: #6f42c1;
+}
+.tag-color05 {
+  background-color: rgba(12, 36, 97, 0.1);
+  color: #0c2461;
+}
+.tag-color06 {
+  background-color: rgba(27, 132, 255, 0.1);
+  color: #1b84ff;
+}
+.tag-color07 {
+  background-color: rgba(130, 88, 159, 0.1);
+  color: #82589F;
+}
