@@ -179,3 +179,27 @@
 #teacherProfile .Personal {
   color: #747579;
 }
+
+#teacherProfile .icon-lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#teacherProfile .icon-lg i {
+  font-size: 30px;
+  font-weight: 900;
+}
+#teacherProfile .text-purple {
+  color: #6f42c1;
+}
+#teacherProfile .bg-purple {
+  background-color: rgba(111, 66, 193, 0.1);
+}
+#teacherProfile .text-orange {
+  color: #fd7e14;
+}
+#teacherProfile .bg-orange {
+  background-color: rgba(253, 126, 20, 0.1);
+}
