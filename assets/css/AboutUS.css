@@ -188,3 +188,41 @@
   font-family: var(--Bangla-font);
   letter-spacing: 0.20000000298023224px;
 }
+/* ?? About US -Pages  */
+/*--------------------------------------------------------------
+# Gallery section
+--------------------------------------------------------------*/
+#photoGalley {
+  background: radial-gradient(
+    92.39% 92.39% at 36.15% 19.05%,
+    #ffd1b7 0,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+#photoGalley .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+#photoGalley .swiper-slide .photoGalley-short {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#photoGalley .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+#photoGalley .mySwiper2 .photoGalley-main {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: auto;
+  border-radius: 10px;
+  margin-right: auto;
+}
+#photoGalley .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
