@@ -86,8 +86,6 @@
   color: var(--text-primary-color);
 }
 #otherContact .Office-image {
-  background-image: linear-gradient(358.68deg, #000 6.57%, transparent 100.85%),
-    url('../img/BD-CITY.png');
   background-size: cover;
   border-radius: 20px;
   height: 500px;
