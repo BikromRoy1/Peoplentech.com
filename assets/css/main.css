@@ -3463,3 +3463,7 @@ section {
     0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   transform: translateY(-0.25rem);
 }
+#team .team-image {
+  /* box-shadow: 0 0 0 0.1875rem rgba(41, 43, 44, 0.16); */
+  border: 3px solid rgba(105, 108, 255, 0.233);
+}
