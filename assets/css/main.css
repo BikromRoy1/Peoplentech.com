@@ -3468,102 +3468,171 @@ section {
   border: 3px solid rgba(105, 108, 255, 0.233);
 }
 
-
 /*--------------------------------------------------------------
 # Upcoming html file add new css code
 --------------------------------------------------------------*/
 
 .upcomingBatch .upcoming-card .pricing-part {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 .upcomingBatch .upcoming-card .pricing-part .price {
-    font-family: var(--Bangla-font);
-    font-weight: 700;
-    color: var(--primary-color);
-    letter-spacing: 0.20000000298023224px;
-    margin-bottom: 0px;
-    font-size: 20px;
+  font-family: var(--Bangla-font);
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: 0.20000000298023224px;
+  margin-bottom: 0px;
+  font-size: 20px;
 }
 .upcomingBatch .upcoming-card .status i {
-    color: var(--primary-color);
-    font-weight: 800;
+  color: var(--primary-color);
+  font-weight: 800;
 }
 .upcomingBatch .upcoming-card .status span {
-    color: var(--text-primary-color);
-    font-family: var(--Bangla-font);
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.2px;
+  color: var(--text-primary-color);
+  font-family: var(--Bangla-font);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
 .upcomingBatch .upcoming-card .course-title {
-    font-family: var(--Bangla-font);
-    font-weight: 600;
-    color: var(--text-primary-color);
-    letter-spacing: 0.20000000298023224px;
-    font-size: 17px;
-    line-height: 27px;
-    border-bottom: 1px solid #c9c9c9;
-    padding-bottom: 7px;
+  font-family: var(--Bangla-font);
+  font-weight: 600;
+  color: var(--text-primary-color);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 17px;
+  line-height: 27px;
+  border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 7px;
 }
 .upcomingBatch .upcoming-card .upcoming-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .upcomingBatch .upcoming-card .upcoming-content .title {
-    font-weight: 600;
-    font-family: var(--Bangla-font);
-    letter-spacing: 0.20000000298023224px;
-    font-size: 15px;
-    text-transform: uppercase;
-    margin-bottom: 1px;
+  font-weight: 600;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
 }
 .upcomingBatch .upcoming-card .upcoming-content .date {
-    font-family: var(--Bangla-font);
-    letter-spacing: 0.20000000298023224px;
-    font-size: 13px;
-    font-weight: 600;
-    color: #4b5563;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4b5563;
 }
 .upcomingBatch .upcoming-card .admit-btn a {
-    background: var(--primary-color);
-    color: var(--contrast-color);
-    padding: 3px 8px;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 14px;
-    font-family: var(--Bangla-font);
-    letter-spacing: 0.20000000298023224px;
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
 }
 .upcomingBatch .upcoming-card .expand-more-content .plus {
-    text-align: end;
-    padding: 4px 0px;
+  text-align: end;
+  padding: 4px 0px;
 }
 .upcomingBatch .upcoming-card .expand-more-content .plus i {
-    /* background: #4b5563; */
-    border: 1px solid #4b5563;
-    font-size: 17px;
-    border-radius: 3px;
-    cursor: pointer;
-    color: #4b5563;
-    padding: 0px 9px;
+  /* background: #4b5563; */
+  border: 1px solid #4b5563;
+  font-size: 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #4b5563;
+  padding: 0px 9px;
 }
 .upcomingBatch .upcoming-card .expand-more-content .day {
-    font-family: var(--Bangla-font);
-    letter-spacing: 0.20000000298023224px;
-    background: #dfffea;
-    color: #12b76a;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 1px 5px;
-    border-radius: 6px;
-}
-#contentToToggle {
-    visibility: hidden;
-    white-space: nowrap;
+  font-family: var(--Bangla-font);
+  letter-spacing: 0.20000000298023224px;
+  background: #dfffea;
+  color: #12b76a;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 6px;
 }
 
+/* batch toggle */
+
+.faq-container .faq-item {
+  position: relative;
+  padding: 10px 0px;
+  overflow: hidden;
+}
+
+.faq-container .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-container .faq-item h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  font-family: var(--Bangla-font);
+}
+
+.faq-container .faq-item h3 .num {
+  color: var(--primary-color);
+  padding-right: 5px;
+}
+
+.faq-container .faq-item h3:hover {
+  color: var(--primary-color);
+}
+
+.faq-container .faq-item .faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.faq-container .faq-item .faq-content .wrap-content {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.faq-container .faq-item .faq-toggle {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.faq-container .faq-item .faq-toggle:hover {
+  color: var(--primary-color);
+}
+
+.faq-container .faq-active h3 {
+  color: var(--primary-color);
+}
+
+.faq-container .faq-active .faq-content {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+.faq-container .faq-active .faq-toggle {
+  transform: rotate(90deg);
+  color: var(--primary-color);
+}
