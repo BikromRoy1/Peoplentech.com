@@ -3467,3 +3467,103 @@ section {
   /* box-shadow: 0 0 0 0.1875rem rgba(41, 43, 44, 0.16); */
   border: 3px solid rgba(105, 108, 255, 0.233);
 }
+
+
+/*--------------------------------------------------------------
+# Upcoming html file add new css code
+--------------------------------------------------------------*/
+
+.upcomingBatch .upcoming-card .pricing-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.upcomingBatch .upcoming-card .pricing-part .price {
+    font-family: var(--Bangla-font);
+    font-weight: 700;
+    color: var(--primary-color);
+    letter-spacing: 0.20000000298023224px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.upcomingBatch .upcoming-card .status i {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+.upcomingBatch .upcoming-card .status span {
+    color: var(--text-primary-color);
+    font-family: var(--Bangla-font);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.upcomingBatch .upcoming-card .course-title {
+    font-family: var(--Bangla-font);
+    font-weight: 600;
+    color: var(--text-primary-color);
+    letter-spacing: 0.20000000298023224px;
+    font-size: 17px;
+    line-height: 27px;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 7px;
+}
+.upcomingBatch .upcoming-card .upcoming-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upcomingBatch .upcoming-card .upcoming-content .title {
+    font-weight: 600;
+    font-family: var(--Bangla-font);
+    letter-spacing: 0.20000000298023224px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+.upcomingBatch .upcoming-card .upcoming-content .date {
+    font-family: var(--Bangla-font);
+    letter-spacing: 0.20000000298023224px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4b5563;
+}
+.upcomingBatch .upcoming-card .admit-btn a {
+    background: var(--primary-color);
+    color: var(--contrast-color);
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--Bangla-font);
+    letter-spacing: 0.20000000298023224px;
+}
+.upcomingBatch .upcoming-card .expand-more-content .plus {
+    text-align: end;
+    padding: 4px 0px;
+}
+.upcomingBatch .upcoming-card .expand-more-content .plus i {
+    /* background: #4b5563; */
+    border: 1px solid #4b5563;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #4b5563;
+    padding: 0px 9px;
+}
+.upcomingBatch .upcoming-card .expand-more-content .day {
+    font-family: var(--Bangla-font);
+    letter-spacing: 0.20000000298023224px;
+    background: #dfffea;
+    color: #12b76a;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    border-radius: 6px;
+}
+#contentToToggle {
+    visibility: hidden;
+    white-space: nowrap;
+}
+
