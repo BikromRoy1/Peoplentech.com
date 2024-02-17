@@ -2172,6 +2172,7 @@ section {
   color: var(--contrast-color);
   font-weight: bold;
   position: relative;
+  text-align: left;
 }
 
 .footer .footer-contact h4::before {
