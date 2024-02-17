@@ -3,6 +3,31 @@
   .number-sm {
     display: none;
   }
+  #Page-breadcrumbs .breadcrumbs-title {
+    font-size: 16px;
+  }
+  #Page-breadcrumbs .page-link {
+    font-size: 15px;
+  }
+  #Page-breadcrumbs .breadcrumbs-main-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #Page-breadcrumbs .breadcrumbs-main-details {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section-header h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .section-header p {
+    line-height: 24px;
+    font-size: 15px;
+  }
+  .section-header h4 {
+    font-size: 17px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
