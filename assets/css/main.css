@@ -1665,6 +1665,10 @@ section {
 /*--------------------------------------------------------------
 # Online Seminar 
 --------------------------------------------------------------*/
+#Seminar .seminar-join {
+  margin-bottom: 11px;
+  margin-top: 6px;
+}
 #Seminar .seminar-join a {
   font-family: var(--Bangla-font);
   border: 1px solid var(--primary-color);
@@ -1701,7 +1705,7 @@ section {
 #Seminar .single-list {
   background: #002147;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
-  padding: 60px 150px 60px 60px;
+  padding: 50px 120px 50px 50px;
   border-radius: 7px;
 }
 
@@ -1711,10 +1715,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 17px;
 }
 
 #Seminar .single-list .single-Seminar-list-inner {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: flex;
   align-items: flex-start;
 }
@@ -1770,7 +1776,7 @@ section {
 #Seminar .single-list .single-Seminar-list-inner .details h4 {
   color: var(--contrast-color);
   font-family: var(--Bangla-font);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.2px;
   line-height: 30px;
