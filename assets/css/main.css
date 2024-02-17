@@ -2869,6 +2869,10 @@ section {
 /*--------------------------------------------------------------
 # Seminar List
 --------------------------------------------------------------*/
+#seminarList .seminar-join {
+  margin-bottom: 11px;
+  margin-top: 6px;
+}
 #seminarList .seminar-join a {
   font-family: var(--Bangla-font);
   border: 1px solid var(--primary-color);
@@ -2890,10 +2894,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
 }
 
 #seminarList .single-list .single-Seminar-list-inner {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: flex;
   align-items: flex-start;
 }

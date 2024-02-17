@@ -62,6 +62,19 @@
   #whypeoplentech .facilities-item .whypeoplentech-contnet h4 {
     font-size: 22px;
   }
+  #seminarList .single-list .single-Seminar-list-inner .details h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #seminarList .single-list .single-Seminar-list-inner .date {
+    font-size: 18px;
+    width: 63px;
+    height: 58px;
+  }
+  #seminarList .seminar-join a {
+    font-size: 13px;
+    padding: 3px 6px 3px 6px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
