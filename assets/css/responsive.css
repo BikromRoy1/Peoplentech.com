@@ -28,6 +28,10 @@
   .section-header h4 {
     font-size: 17px;
   }
+  .contactFrom .contact-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
