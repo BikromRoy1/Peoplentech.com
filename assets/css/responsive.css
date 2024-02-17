@@ -36,6 +36,29 @@
     font-size: 22px;
     line-height: 29px;
   }
+  #aboutVideos h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #aboutVideos h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #aboutVideos p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  #aboutCompany h2 {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  #awards .awards-text {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  #awards .awards-title {
+    font-size: 17px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
