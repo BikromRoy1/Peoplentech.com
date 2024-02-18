@@ -114,6 +114,18 @@
     font-size: 24px;
     line-height: 33px;
   }
+  #course-category .swiper-button-next {
+    right: 0px;
+  }
+  #course-category .swiper-button-prev {
+    left: 0;
+  }
+  .hero-img {
+    display: none;
+  }
+  #hero {
+    margin-bottom: 0;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -123,6 +135,12 @@
   }
   #Seminar .single-list {
     padding: 30px 30px 30px 30px;
+  }
+  #course-category .swiper-button-next {
+    right: 0px;
+  }
+  #course-category .swiper-button-prev {
+    left: 0;
   }
 }
 
@@ -138,6 +156,27 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+  #hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://cdn.10minuteschool.com/images/bg2_1699781792031.png);
+    background-color: rgb(253, 250, 248);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -130px;
+  }
+  #hero .discount {
+    top: 57px;
+    left: 20px;
+  }
+  #hero .discount .discount-student h4 {
+    font-size: 15px;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
