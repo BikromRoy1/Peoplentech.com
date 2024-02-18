@@ -100,6 +100,20 @@
     font-size: 14px;
     padding: 4px 8px 4px 8px;
   }
+  #about-us .about-content h4 {
+    font-size: 16px;
+  }
+  #about-us .about-content h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #about-us .about-content p {
+    font-size: 16px;
+  }
+  #freeTutorial .freeTutorial-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
