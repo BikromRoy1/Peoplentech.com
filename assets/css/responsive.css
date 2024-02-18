@@ -126,6 +126,54 @@
   #hero {
     margin-bottom: 0;
   }
+  #hero .course-view .course-view-items h5 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0px;
+  }
+  #hero .course-view .course-view-items h6 {
+    font-size: 14px;
+  }
+  #hero {
+    padding: 30px 0px;
+  }
+  .Allcourse .nav-link {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  #Allcourse .allcourse-prev {
+    left: 0;
+  }
+  #Allcourse .allcourse-next {
+    right: 0;
+  }
+  .Allcourse .course-card .course-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .Allcourse .course-card .course-details-btn .details-btn {
+    font-size: 16px;
+  }
+  .Allcourse .course-card .count-student {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #upcomingBatches .upcomingBatches-prev {
+    left: 0;
+  }
+  #upcomingBatches .upcomingBatches-next {
+    right: 0;
+  }
+   .course-card .course-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .course-card .course-details-btn .details-btn {
+    font-size: 16px;
+  }
+  .course-card .count-student {
+    font-size: 14px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -142,6 +190,45 @@
   #course-category .swiper-button-prev {
     left: 0;
   }
+  .hero-img {
+    display: none;
+  }
+  #hero {
+    margin-bottom: 0;
+  }
+  #Allcourse .allcourse-prev {
+    left: 0;
+  }
+  #Allcourse .allcourse-next {
+    right: 0;
+  }
+  .Allcourse .course-card .course-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .Allcourse .course-card .course-details-btn .details-btn {
+    font-size: 16px;
+  }
+  .Allcourse .course-card .count-student {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #upcomingBatches .upcomingBatches-prev {
+    left: 0;
+  }
+  #upcomingBatches .upcomingBatches-next {
+    right: 0;
+  }
+  .course-card .course-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .course-card .course-details-btn .details-btn {
+    font-size: 16px;
+  }
+  .course-card .count-student {
+    font-size: 14px;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -151,6 +238,12 @@
   }
   #Seminar .single-list {
     padding: 30px 30px 30px 30px;
+  }
+  .hero-img {
+    display: none;
+  }
+  #hero {
+    margin-bottom: 0;
   }
 }
 

@@ -872,7 +872,7 @@ section {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: auto;
     text-align: center;
   }
 
@@ -909,7 +909,7 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 15px;
     margin-bottom: 25px;
     justify-content: center;
   }
@@ -921,8 +921,12 @@ section {
   }
 
   #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
+    font-size: 14px;
+    padding: 9px 16px 9px 16px;
+  }
+  #hero .btn-watch-video {
+    font-size: 14px;
+    margin: 10px 0 0 15px;
   }
 }
 
