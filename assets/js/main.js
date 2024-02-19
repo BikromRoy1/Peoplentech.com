@@ -343,7 +343,7 @@ let swiper = new Swiper('.mySwiper', {
   spaceBetween: 10,
   slidesPerView: 6,
   breakpoints: {
-    414: {
+    350: {
       slidesPerView: 2,
     },
     576: {
