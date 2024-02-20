@@ -150,7 +150,7 @@ section {
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
-.scroll-top {
+.back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -164,18 +164,18 @@ section {
   transition: all 0.4s;
 }
 
-.scroll-top i {
+.back-to-top i {
   font-size: 24px;
   color: #ffffff;
   line-height: 0;
 }
 
-.scroll-top:hover {
+.back-to-top:hover {
   background-color: rgba(var(--primary-color-rgb), 0.8);
   color: #ffffff;
 }
 
-.scroll-top.active {
+.back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
@@ -1536,7 +1536,35 @@ section {
   border-radius: 3px;
   color: var(--secondary-color);
 }
-
+.other-category {
+  background: #f6f9fc;
+  border-radius: 6px;
+  padding: 25px 20px;
+  border: 1px solid #e5e7eb;
+}
+.other-category h4 {
+  font-family: var(--Bangla-font);
+  color: #434a57;
+  letter-spacing: 0.20000000298023224px;
+  line-height: 28px;
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 12px;
+}
+.other-category ul {
+  font-family: var(--Bangla-font);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.other-category ul li {
+  list-style: none;
+}
+.other-category ul .category-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /*--------------------------------------------------------------
 # Why peoplentech? 
 --------------------------------------------------------------*/
